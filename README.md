@@ -21,9 +21,12 @@ check all progresses
 
     $ ps -A
 
-
 check specific probresses
 
     $ ps -ef|grep <desc>
+
+run command and ignore hangup
+
+    $ nohup <command> &
 
 
