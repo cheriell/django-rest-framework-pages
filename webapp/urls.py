@@ -8,6 +8,6 @@ router.register(r'users', UserViewSet)
 router.register(r'groups', GroupViewSet)
 
 urlpatterns = [
-    # url(r'^$', views.index, name='index'),
-    url(r'^view/', include(router.urls)),
+    url(r'^$', views.index, name='index'),
+    url(r'^viewapi/', include(router.urls)),
 ]
