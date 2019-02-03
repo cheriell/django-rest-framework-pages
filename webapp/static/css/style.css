@@ -1,4 +1,8 @@
 .nav-bar{
+    background-color:rgb(18, 94, 180);
+    position:fixed;left:0;right:0;
+}
+.nav-wrapper{
     width:1000px;margin-left:auto;margin-right:auto;
 }
 .nav{
@@ -9,7 +13,7 @@
     display:inline-block
 }
 .nav:hover{
-    background-color:rgb(103, 151, 255);
+    background-color:rgb(56, 143, 220);
 }
 
 .page{
