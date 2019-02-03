@@ -1,0 +1,21 @@
+.nav-bar{
+    width:1000px;margin-left:auto;margin-right:auto;
+}
+.nav{
+    width:20%;
+    margin-left:-4px;padding:0.5em 0.5em 0.5em 0.5em;
+    color:white;
+    font-size:20px;font-weight:bold;text-align:center;
+    display:inline-block
+}
+.nav:hover{
+    background-color:rgb(103, 151, 255);
+}
+
+.page{
+    background-image:url("../img/background.jpg");
+    background-size:100% auto;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-attachment:fixed;
+}
