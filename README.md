@@ -31,5 +31,6 @@ kill specific progress
 run command in backstage and ignore hangup
 
     $ nohup <command> &
+    $ nohup python manage.py runserver 0.0.0.0:port_number &
 
 
