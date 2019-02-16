@@ -1,11 +1,12 @@
 /****************************** navigator *************************************/
 .nav-bar{
-    background-color:rgba(43, 43, 43, 0.671);
-    position:fixed;left:0;right:0;
+    background-color:rgba(43, 43, 43, 0.65);
+    position:fixed;left:0;right:0;top:0;
+    z-index:100;
 }
-@media screen and (min-width:1000px) {
+@media screen and (min-width:1200px) {
     .nav-wrapper{
-        width:1000px;margin-left:auto;margin-right:auto;
+        width:1200px;margin-left:auto;margin-right:auto;
     }
 }
 .nav{
@@ -16,39 +17,34 @@
     display:inline-block
 }
 .nav:hover{
-    background-color:rgba(153, 153, 153, 0.349);
+    background-color:rgba(153, 153, 153, 0.65);
 }
 
 /**************************** page background *********************************/
 @media screen and (min-aspect-ratio:1920/1185){
-    .page{
+    .mywindow{
         background-image:url("../img/background1.jpg");
-        background-color:rgba(31, 71, 130);
         background-size:100% auto;
-        background-repeat:no-repeat;
-        background-position-x:center;
-        background-attachment:fixed;
     }
 }
 @media screen and (min-aspect-ratio:1/1) and (max-aspect-ratio:1920/1185) {
-    .page{
+    .mywindow{
         background-image:url("../img/background1.jpg");
-        background-color:rgba(31, 71, 130);
         background-size:auto 100%;
-        background-repeat:no-repeat;
-        background-position-x:center;
-        background-attachment:fixed;
     }
 }
 @media screen and (max-aspect-ratio:1/1) {
-    .page{
+    .mywindow{
         background-image:url("../img/background2.jpg");
-        background-color:rgba(31, 71, 130);
         background-size:100% auto;
-        background-repeat:no-repeat;
-        background-position-x:center;
-        background-attachment:fixed;
     }
+}
+.mywindow{
+    background-color:rgba(31, 71, 130);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-attachment:fixed;
+    padding-top:40px;
 }
 
 /***************************** footer sytle ******************************/
@@ -56,6 +52,18 @@
     background-color:rgba(44, 44, 44, 0.65);color:white;
 }
 .footer-wrapper{
-    width:1000px;margin-left:auto;margin-right:auto;
+    width:1200px;margin-left:auto;margin-right:auto;
     padding-top:1em;padding-bottom:1em;
+}
+
+/******************************** 主内容页面 ****************************/
+@media screen and (min-width:1200px) {
+    .page{width:1200px;margin-left:auto;margin-right:auto}
+}
+.page-wrapper{
+    margin:15px 0 15px 0;
+    border:1px solid rgba(128, 128, 128, 0.9);
+    border-radius:5px;
+    padding:20px 30px 20px 30px;
+    background-color:rgba(255, 255, 255, 0.9);
 }
