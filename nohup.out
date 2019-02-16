@@ -167,3 +167,280 @@ Not Found: /favicon.ico
 [04/Feb/2019 03:44:06] "GET /static/img/background.jpg HTTP/1.1" 304 0
 Not Found: /favicon.ico
 [04/Feb/2019 03:44:06] "GET /favicon.ico HTTP/1.1" 404 2299
+[04/Feb/2019 08:00:19] "GET / HTTP/1.1" 200 2267
+[04/Feb/2019 08:00:20] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[04/Feb/2019 08:00:20] "GET /static/css/style.css HTTP/1.1" 304 0
+[04/Feb/2019 08:00:20] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[04/Feb/2019 08:00:20] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[04/Feb/2019 08:00:26] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1703
+[04/Feb/2019 08:00:29] "GET / HTTP/1.1" 200 2267
+[04/Feb/2019 08:00:29] "GET /static/css/style.css HTTP/1.1" 200 590
+[04/Feb/2019 08:00:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[04/Feb/2019 08:00:29] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 23739
+[04/Feb/2019 08:00:30] "GET /static/img/background.jpg HTTP/1.1" 200 980322
+[04/Feb/2019 08:00:32] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1703
+[04/Feb/2019 08:31:10] "GET / HTTP/1.1" 200 2267
+[04/Feb/2019 10:52:10] code 400, message Bad request version ('MCTP/1.0')
+[04/Feb/2019 10:52:10] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[04/Feb/2019 11:52:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[04/Feb/2019 11:52:10] "  +&à     Cookie: mstshash=hello" 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[04/Feb/2019 16:05:38] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[04/Feb/2019 16:05:38] "  /*à     Cookie: mstshash=Administr" 400 -
+[04/Feb/2019 18:41:04] "GET / HTTP/1.1" 200 2267
+[04/Feb/2019 19:15:46] "GET / HTTP/1.1" 200 2267
+[04/Feb/2019 21:06:23] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[04/Feb/2019 21:06:23] "  /*à     Cookie: mstshash=Administr" 400 -
+[05/Feb/2019 00:27:30] code 400, message Bad HTTP/0.9 request type ('RFB')
+[05/Feb/2019 00:27:30] "RFB 003.003" 400 -
+[05/Feb/2019 01:51:35] code 400, message Bad request version ('MCTP/1.0')
+[05/Feb/2019 01:51:35] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[05/Feb/2019 12:53:37] code 400, message Bad request syntax ('\x05\x01\x00')
+[05/Feb/2019 12:53:37] " " 400 -
+[05/Feb/2019 12:53:42] code 400, message Bad request syntax ('\x05\x01\x00')
+[05/Feb/2019 12:53:42] " " 400 -
+[05/Feb/2019 12:53:48] code 400, message Bad request syntax ('\x05\x01\x00')
+[05/Feb/2019 12:53:48] " " 400 -
+[05/Feb/2019 12:54:22] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00P\x05¼Ò')
+[05/Feb/2019 12:54:22] " P¼Ò " 400 -
+[05/Feb/2019 12:54:28] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00P\x05¼Ò')
+[05/Feb/2019 12:54:28] " P¼Ò " 400 -
+[05/Feb/2019 12:54:34] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00P\x05¼Ò')
+[05/Feb/2019 12:54:34] " P¼Ò " 400 -
+Invalid HTTP_HOST header: '5.188.210.12'. You may need to add '5.188.210.12' to ALLOWED_HOSTS.
+Bad Request: /http:/5.188.210.12/echo.php
+[05/Feb/2019 12:55:21] "GET http://5.188.210.12/echo.php HTTP/1.1" 400 60760
+[05/Feb/2019 20:48:32] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[05/Feb/2019 20:48:32] "  +&à     Cookie: mstshash=hello" 400 -
+[05/Feb/2019 20:58:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[05/Feb/2019 20:58:14] "  *%à     Cookie: mstshash=Test" 400 -
+[05/Feb/2019 20:58:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[05/Feb/2019 20:58:14] "  *%à     Cookie: mstshash=Test" 400 -
+[05/Feb/2019 23:46:32] code 400, message Bad request version ('MCTP/1.0')
+[05/Feb/2019 23:46:32] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[06/Feb/2019 07:27:45] code 400, message Bad request version ('MCTP/1.0')
+[06/Feb/2019 07:27:45] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+Invalid HTTP_HOST header: 'www.baidu.com:443'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /www.baidu.com:443
+[06/Feb/2019 09:40:04] "CONNECT www.baidu.com:443 HTTP/1.1" 400 60295
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/
+[06/Feb/2019 09:40:05] "GET http://www.baidu.com/ HTTP/1.1" 400 59754
+[06/Feb/2019 09:40:57] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x03')
+[06/Feb/2019 09:40:57] " " 400 -
+[06/Feb/2019 09:40:57] code 400, message Bad request syntax ('\x04\x01\x02\x03\x02\x03\x04\x05fdasfds\x00')
+[06/Feb/2019 09:40:57] "fdasfds " 400 -
+Not Found: /a2billing/customer/templates/default/footer.tpl
+[06/Feb/2019 10:53:14] "GET /a2billing/customer/templates/default/footer.tpl HTTP/1.1" 404 2407
+[06/Feb/2019 10:53:15] code 400, message Bad request syntax ('\x16\x03\x01\x00Þ\x01\x00\x00Ú\x03\x039ª\x1eê\t\x8cÌÃ\x19°s\x8f»¦¢KÙÄ\x89\x8bÏc4\x88\x90ß\x06\x99¡á\x8bì\x00\x00nÀ0À,À2À.À/À+À1À-\x00¥\x00£\x00¡\x00\x9f\x00¤\x00¢\x00\xa0\x00\x9eÀ(À$À\x14À')
+[06/Feb/2019 10:53:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /recordings/
+[06/Feb/2019 11:24:22] "GET /recordings/ HTTP/1.1" 404 2299
+[06/Feb/2019 11:24:22] code 400, message Bad request version ('\x00\x9eÀ(À$À\x14À')
+[06/Feb/2019 11:24:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Feb/2019 11:55:16] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Þ\x01\x00\x00Ú\x03\x03h\x18óç¾')
+[06/Feb/2019 11:55:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /vtigercrm/vtigerservice.php
+[06/Feb/2019 11:55:17] "GET /vtigercrm/vtigerservice.php HTTP/1.1" 404 2347
+[06/Feb/2019 12:11:03] "GET / HTTP/1.1" 200 2267
+[06/Feb/2019 14:00:42] code 400, message Bad request version ('MCTP/1.0')
+[06/Feb/2019 14:00:42] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[06/Feb/2019 14:10:27] "GET / HTTP/1.1" 200 2267
+[06/Feb/2019 18:22:30] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[06/Feb/2019 18:22:30] "  +&à     Cookie: mstshash=hello" 400 -
+[06/Feb/2019 18:57:37] code 400, message Bad request version ('MCTP/1.0')
+[06/Feb/2019 18:57:37] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[07/Feb/2019 00:27:14] code 400, message Bad request version ('MCTP/1.0')
+[07/Feb/2019 00:27:14] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+Invalid HTTP_HOST header: 'ubuntu-cherie:9000'. You may need to add 'ubuntu-cherie' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Feb/2019 00:41:54] "GET / HTTP/1.0" 400 58949
+[07/Feb/2019 02:45:40] "GET / HTTP/1.1" 200 2267
+[07/Feb/2019 02:45:42] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[07/Feb/2019 02:45:42] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 23739
+[07/Feb/2019 02:45:42] "GET /static/css/style.css HTTP/1.1" 200 590
+Not Found: /favicon.ico
+[07/Feb/2019 02:45:43] "GET /favicon.ico HTTP/1.1" 404 2299
+[07/Feb/2019 02:45:44] "GET /static/img/background.jpg HTTP/1.1" 200 980322
+[07/Feb/2019 02:57:18] code 400, message Bad request version ('MCTP/1.0')
+[07/Feb/2019 02:57:18] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[07/Feb/2019 06:03:29] "GET / HTTP/1.1" 200 2267
+[07/Feb/2019 06:03:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[07/Feb/2019 06:03:30] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 23739
+[07/Feb/2019 06:03:35] "GET / HTTP/1.1" 200 2267
+[07/Feb/2019 06:03:35] "GET /static/css/style.css HTTP/1.1" 200 590
+[07/Feb/2019 06:03:37] "GET /static/img/background.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Feb/2019 06:03:37] "GET /favicon.ico HTTP/1.1" 404 2299
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[07/Feb/2019 15:54:23] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[07/Feb/2019 15:54:23] "  *%à     Cookie: mstshash=Test" 400 -
+[07/Feb/2019 15:54:23] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[07/Feb/2019 15:54:23] "  *%à     Cookie: mstshash=Test" 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[07/Feb/2019 16:33:16] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[07/Feb/2019 16:33:16] "  *%à     Cookie: mstshash=Test" 400 -
+[07/Feb/2019 16:33:16] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[07/Feb/2019 16:33:16] "  *%à     Cookie: mstshash=Test" 400 -
+[07/Feb/2019 16:55:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[07/Feb/2019 16:55:04] "  +&à     Cookie: mstshash=hello" 400 -
+[08/Feb/2019 11:02:12] code 400, message Bad request version ('MCTP/1.0')
+[08/Feb/2019 11:02:12] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[08/Feb/2019 16:43:48] code 400, message Bad request version ('MCTP/1.0')
+[08/Feb/2019 16:43:48] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[08/Feb/2019 19:00:22] code 400, message Bad request version ('MCTP/1.0')
+[08/Feb/2019 19:00:22] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[09/Feb/2019 15:05:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[09/Feb/2019 15:05:09] "  +&à     Cookie: mstshash=hello" 400 -
+[10/Feb/2019 23:56:30] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[10/Feb/2019 23:56:30] "  /*à     Cookie: mstshash=Administr" 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[11/Feb/2019 12:56:58] "GET / HTTP/1.1" 200 2267
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[11/Feb/2019 14:46:03] "GET / HTTP/1.1" 200 2267
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[11/Feb/2019 18:49:14] code 400, message Bad request version ('MCTP/1.0')
+[11/Feb/2019 18:49:14] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[12/Feb/2019 07:50:32] code 400, message Bad HTTP/0.9 request type ('RFB')
+[12/Feb/2019 07:50:32] "RFB 003.003" 400 -
+[12/Feb/2019 08:36:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[12/Feb/2019 08:36:36] "  +&à     Cookie: mstshash=hello" 400 -
+Invalid HTTP_HOST header: 'www.baidu.com:443'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /www.baidu.com:443
+[12/Feb/2019 13:09:50] "CONNECT www.baidu.com:443 HTTP/1.1" 400 60296
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.baidu.com/
+[12/Feb/2019 13:09:50] "GET http://www.baidu.com/ HTTP/1.1" 400 59755
+[12/Feb/2019 13:10:42] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x03')
+[12/Feb/2019 13:10:42] " " 400 -
+[12/Feb/2019 13:10:42] code 400, message Bad request syntax ('\x04\x01\x02\x03\x02\x03\x04\x05fdasfds\x00')
+[12/Feb/2019 13:10:42] "fdasfds " 400 -
+[12/Feb/2019 20:37:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[12/Feb/2019 20:37:25] "  +&à     Cookie: mstshash=hello" 400 -
+[13/Feb/2019 01:20:57] code 400, message Bad request version ('MCTP/1.0')
+[13/Feb/2019 01:20:57] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[13/Feb/2019 01:41:39] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[13/Feb/2019 01:41:39] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /check
+[13/Feb/2019 02:13:47] "GET /check HTTP/1.1" 404 2281
+[13/Feb/2019 20:10:09] "GET / HTTP/1.0" 200 2267
+[13/Feb/2019 20:39:43] "GET / HTTP/1.1" 200 2267
+[14/Feb/2019 02:54:59] code 400, message Bad request version ('MCTP/1.0')
+[14/Feb/2019 02:54:59] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[14/Feb/2019 16:57:10] code 400, message Bad request version ('MCTP/1.0')
+[14/Feb/2019 16:57:10] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[15/Feb/2019 00:39:30] code 400, message Bad request version ('MCTP/1.0')
+[15/Feb/2019 00:39:30] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[15/Feb/2019 02:17:28] code 400, message Bad request version ('MCTP/1.0')
+[15/Feb/2019 02:17:28] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[15/Feb/2019 15:24:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Feb/2019 15:24:28] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Feb/2019 17:18:16] "GET / HTTP/1.1" 200 2267
+[15/Feb/2019 20:05:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[15/Feb/2019 20:05:28] "  +&à     Cookie: mstshash=hello" 400 -
+[16/Feb/2019 02:36:27] code 400, message Bad request version ('MCTP/1.0')
+[16/Feb/2019 02:36:27] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[16/Feb/2019 02:51:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[16/Feb/2019 02:51:58] "  /*à     Cookie: mstshash=Administr" 400 -
+[16/Feb/2019 03:57:06] "GET / HTTP/1.1" 200 2267
+[16/Feb/2019 03:57:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[16/Feb/2019 03:57:07] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 23739
+[16/Feb/2019 03:57:10] "GET /static/css/style.css HTTP/1.1" 200 590
+Not Found: /favicon.ico
+[16/Feb/2019 03:57:10] "GET /favicon.ico HTTP/1.1" 404 2299
+[16/Feb/2019 03:57:10] "GET /static/img/background.jpg HTTP/1.1" 200 980322
