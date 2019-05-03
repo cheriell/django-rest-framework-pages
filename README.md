@@ -5,6 +5,11 @@ Remote server: 47.101.29.244
 
 Page published at [The Power of Music](http://46.101.29.244:9000)
 
+Administration:
+
+> username: admin
+> password: N5i...
+
 ## System Requirements
 
 ### using virtualenv
@@ -25,15 +30,15 @@ Activate & deactivate virtualenv:
 
 ### required python packages
 
-> djangorestframework
-> django
-> pygments
-> markdown
-> coreapi
-> psycopg2
-> dj-database-url
-> gunicorn
-> whitenoise
+> djangorestframework  
+> django  
+> pygments  
+> markdown  
+> coreapi  
+> psycopg2  
+> dj-database-url  
+> gunicorn  
+> whitenoise  
 
 ## publish/update site on ubuntu server
 
@@ -59,3 +64,13 @@ run command in backstage and ignore hangup
     $ nohup python manage.py runserver 0.0.0.0:<port_number> &  # blog - runserver
 
 
+## local debugging
+
+run local server
+
+    $ python manage.py runserver  # this will runserver at 127.0.0.1:8000
+
+Once _models.py_ is changed, run the following instructions to apply change in database
+
+    $ python manage.py makemigrations
+    $ python manage.py migrate

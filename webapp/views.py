@@ -5,15 +5,22 @@ from .serializers import UserSerializer, GroupSerializer
 
 from django.http import HttpResponse, Http404
 from django.template import RequestContext, loader
-from .models import UserStudyRating
+from .models import UserStudyRating, RatingValue
 
 def index(request):
-    ratings = UserStudyRating.objects.all()
-    context = {
-        'ratings': ratings,
-    }
+    context = {}
     return render(request, 'index.html', context)
 
+def consent_form(request):
+    context = {}
+    return render(request, 'consent_form.html', context)
+
+def user_study(request):
+    rating_values = RatingValue.objects.all()
+    context = {
+        'rating_values': rating_values,
+    }
+    return render(request, 'user_study.html', context)
 
 class UserViewSet(viewsets.ModelViewSet):
     """

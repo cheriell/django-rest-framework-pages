@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+{% block page %}
+
+<h1><strong><center>Listen and Rate</center></strong></h1>
+
+<br>
+In this study you will be given a list of audio segments. Some of the pieces have their accompaniment generated automatically from our project. For all of the given segments, we will ask you to rate how well you feel the accompaniment accompanies the melody. Please listen to the following music pieces and give your evaluation by ratings.
+
+<br><br>
+<strong>Music Segment 1</strong>
+<br><br>
+<p>Please first listen to the original music melody:</p>
+<div class="row">
+    <div class="col-sm-6">
+        <center>
+            <audio controls style="height:50px">
+                <source src="../static/audio/segment1_1.wav" stype="audio/wav">
+            </audio>
+        </center>
+    </div>
+</div>
+<p>Below are two accompaiments for the above melody. On a scale of 0-10 (0: very bad, 10: excellent), how would you rate the quality of the provided accompaniments?</p>
+<div class="row">
+    <div class="col-sm-6">
+        <center>
+            <audio controls style="height:50px">
+                <source src="../static/audio/segment1_1.wav" stype="audio/wav">
+            </audio>
+        </center>
+    </div>
+    <div class="col-sm-6">
+        Your rating: 
+        <select class="myselect" style="padding-left:35px">
+            {% for rating_value in rating_values %}
+            <option value="{{ rating_value.value }}">{{ rating_value.value }}</option>
+            {% endfor %}
+        </select>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <center>
+            <audio controls style="height:50px">
+                <source src="../static/audio/segment1_1.wav" stype="audio/wav">
+            </audio>
+        </center>
+    </div>
+    <div class="col-sm-6">
+        Your rating: 
+        <select class="myselect" style="padding-left:35px">
+            {% for rating_value in rating_values %}
+            <option value="{{ rating_value.value }}">{{ rating_value.value }}</option>
+            {% endfor %}
+        </select>
+    </div>
+</div>
+
+
+<br><br>
+<strong>Music Segment 2</strong>
+<br><br>
+<p>Please first listen to the original music melody:</p>
+<div class="row">
+    <div class="col-sm-6">
+        <center>
+            <audio controls style="height:50px">
+                <source src="../static/audio/segment1_1.wav" stype="audio/wav">
+            </audio>
+        </center>
+    </div>
+</div>
+<p>Below are two accompaiments for the above melody. On a scale of 0-10 (0: very bad, 10: excellent), how would you rate the quality of the provided accompaniments?</p>
+<div class="row">
+    <div class="col-sm-6">
+        <center>
+            <audio controls style="height:50px">
+                <source src="../static/audio/segment1_1.wav" stype="audio/wav">
+            </audio>
+        </center>
+    </div>
+    <div class="col-sm-6">
+        Your rating: 
+        <select class="myselect" style="padding-left:35px">
+            {% for rating_value in rating_values %}
+            <option value="{{ rating_value.value }}">{{ rating_value.value }}</option>
+            {% endfor %}
+        </select>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <center>
+            <audio controls style="height:50px">
+                <source src="../static/audio/segment1_1.wav" stype="audio/wav">
+            </audio>
+        </center>
+    </div>
+    <div class="col-sm-6">
+        Your rating: 
+        <select class="myselect" style="padding-left:35px">
+            {% for rating_value in rating_values %}
+            <option value="{{ rating_value.value }}">{{ rating_value.value }}</option>
+            {% endfor %}
+        </select>
+    </div>
+</div>
+
+<br><br>
+<strong>General Questions</strong>
+
+<br><br>
+Do you have any comments on the above audio segments?
+<br>
+<textarea type="text" rows="3" class="mytextarea"></textarea>
+
+<br><br>
+You are now given the pieces automatically generated in our project. Please listen to the pieces and specify the most crucial weakness present in the automatic accompaniment system.
+<br>
+<textarea type="text" rows="3" class="mytextarea"></textarea>
+
+<br><br>
+Do you think the automatic accompaniment system can give a reasonable starting point for non-composers who want to write music?
+<br>
+<textarea type="text" rows="3" class="mytextarea"></textarea>
+
+<br><br>
+Do you have any other comments on our study?
+<br>
+<textarea type="text" rows="3" class="mytextarea"></textarea>
+
+<br><br>
+<strong>Participant Information</strong>
+
+<br><br>
+Years of musical training (in integer):
+<input type="text" class="myinput">
+<br>
+Which music culture do you most closely identify with?
+<select class="myselect" style="width:auto;padding:0 0.5em 0 0.5em">
+    <option value="...">western classical music</option>
+</select>
+
+
+<br><br>
+<button type="button" class="btn btn-default mybutton">
+    <strong>Submit</strong>
+</button>
+
+
+{% endblock %}

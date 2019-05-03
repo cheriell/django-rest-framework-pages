@@ -1,17 +1,19 @@
 /****************************** navigator *************************************/
 .nav-bar{
     background-color:rgba(43, 43, 43, 0.65);
-    position:fixed;left:0;right:0;top:0;
-    z-index:100;
 }
 @media screen and (min-width:1200px) {
     .nav-wrapper{
         width:1200px;margin-left:auto;margin-right:auto;
     }
 }
+@media screen and (max-width:1200px) {
+    .nav-wrapper{
+        width:100%;
+    }
+}
 .nav{
-    width:20%;
-    margin-left:-4px;padding:0.6em 0.6em 0.6em 0.6em;
+    padding:0.8em 2em 0.8em 2em;
     color:white;
     font-size:16px;font-weight:bold;text-align:center;
     display:inline-block
@@ -21,30 +23,24 @@
 }
 
 /**************************** page background *********************************/
-@media screen and (min-aspect-ratio:1920/1185){
-    .mywindow{
+@media screen and (min-aspect-ratio:1/1) {
+    .mybackground{
         background-image:url("../img/background1.jpg");
         background-size:100% auto;
     }
 }
-@media screen and (min-aspect-ratio:1/1) and (max-aspect-ratio:1920/1185) {
-    .mywindow{
-        background-image:url("../img/background1.jpg");
-        background-size:auto 100%;
-    }
-}
 @media screen and (max-aspect-ratio:1/1) {
-    .mywindow{
+    .mybackground{
         background-image:url("../img/background2.jpg");
         background-size:100% auto;
     }
 }
-.mywindow{
-    background-color:rgba(31, 71, 130);
+.mybackground{
+    width:100%;
+    background-color:rgb(58, 37, 56);
     background-repeat:no-repeat;
     background-position-x:center;
     background-attachment:fixed;
-    padding-top:40px;
 }
 
 /***************************** footer sytle ******************************/
@@ -60,10 +56,44 @@
 @media screen and (min-width:1200px) {
     .page{width:1200px;margin-left:auto;margin-right:auto}
 }
+@media screen and (max-width:1200px) {
+    .page{
+        width:100%;
+    }
+}
 .page-wrapper{
+    right:0;
     margin:15px 0 15px 0;
     border:1px solid rgba(128, 128, 128, 0.9);
     border-radius:5px;
     padding:20px 30px 20px 30px;
     background-color:rgba(255, 255, 255, 0.9);
+    font-size:18px;
+    text-align:justify;
+}
+
+/******************************* button **********************************/
+.mybutton{
+    font-size:18px;
+    border-radius:20px;
+    padding:0.5em 1em 0.5em 1em;
+    background-color:rgba(155, 155, 155, 0.65);
+    border-color:rgb(133, 133, 133, 0.65);
+}
+.mytextarea{
+    border-radius:15px;
+    width:100%;
+    outline:none;
+    padding:0 1em 0 1em;
+}
+.myselect{
+    width:100px;
+    height:30px;
+    margin:10px 0 10px 0;
+    border-radius:15px;
+    outline:none;
+}
+.myinput{
+    width:100px;
+    height:30px;
 }
