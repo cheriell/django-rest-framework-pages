@@ -64,10 +64,10 @@
 .page-wrapper{
     right:0;
     margin:15px 0 15px 0;
-    border:1px solid rgba(128, 128, 128, 0.9);
+    border:1px solid rgba(128, 128, 128, 0.85);
     border-radius:5px;
     padding:20px 30px 20px 30px;
-    background-color:rgba(255, 255, 255, 0.9);
+    background-color:rgba(255, 255, 255, 0.85);
     font-size:18px;
     text-align:justify;
 }
@@ -75,10 +75,18 @@
 /******************************* button **********************************/
 .mybutton{
     font-size:18px;
-    border-radius:20px;
+    border-radius:25px;
     padding:0.5em 1em 0.5em 1em;
-    background-color:rgba(155, 155, 155, 0.65);
-    border-color:rgb(133, 133, 133, 0.65);
+    background-color:rgba(173, 173, 173, 0.65);
+    border:none;
+    outline:none !important;
+}
+.mybutton:hover{
+    background-color:rgba(211, 211, 211, 0.65);
+}
+.myaudio{
+    height:50px;
+    outline:none;
 }
 .mytextarea{
     border-radius:15px;
@@ -92,8 +100,4 @@
     margin:10px 0 10px 0;
     border-radius:15px;
     outline:none;
-}
-.myinput{
-    width:100px;
-    height:30px;
 }

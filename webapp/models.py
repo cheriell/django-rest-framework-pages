@@ -1,24 +1,30 @@
 from django.db import models
 
 class UserStudyRating(models.Model):
-    name = models.CharField(max_length=16, primary_key=True)
+    serial_no = models.IntegerField(default=77552330, primary_key=True)
 
     rating1_1 = models.IntegerField(default=0)
     rating1_2 = models.IntegerField(default=0)
+
     rating2_1 = models.IntegerField(default=0)
     rating2_2 = models.IntegerField(default=0)
+
     rating3_1 = models.IntegerField(default=0)
     rating3_2 = models.IntegerField(default=0)
+
     rating4_1 = models.IntegerField(default=0)
     rating4_2 = models.IntegerField(default=0)
+
     rating5_1 = models.IntegerField(default=0)
     rating5_2 = models.IntegerField(default=0)
 
-    years_musical_training = models.IntegerField(default=0)
-    musical_culture = models.CharField(max_length=16, default='')
+    years_musical_training = models.CharField(max_length=10, default='')
+    musical_culture = models.CharField(max_length=100, default='')
+    name = models.CharField(max_length=100, default='')
+    email = models.CharField(max_length=100, default='')
 
     def __str__(self):
-        return self.name + "'s rating"
+        return str(self.serial_no)
 
 
 class RatingValue(models.Model):

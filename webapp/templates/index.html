@@ -1,39 +1,53 @@
 {% extends "base.html" %}
 {% block page %}
 
-<h1><strong><center>Information for Participants</center></strong></h1>
+<h1><strong><center>User Study on Automatic Music Accompaniment <br> - Information for Participants</center></strong></h1>
 
 <br>
-<button type="button" class="btn btn-default mybutton">
+<button type="button" id="go-to-user-study" class="btn btn-default mybutton">
     <i class="fa fa-arrow-right" aria-hidden="true"></i>
     <strong>Go to User Study</strong>
 </button>
 
 <br><br>
-We would like to invite you to be part of this research project if you would like to. You should only agree to take part if you want to, it is entirely up to you. If you choose not to take part, there won’t be any disadvantages for you and you will hear no more about it. Please read the following information carefully before you decide to take part; this will tell you why the research is being done and what you will be asked to do if you take part. Please ask if there is anything that is not clear or if you would like more information. If you decide to take part you will be asked to sign the attached form to say that you agree. You are still free to withdraw at any time and without giving a reason.
+<h3><strong>About</strong></h3>
+
+The purpose of this study is to find out the quality of an automatic music accompaniemnt system, i.e. how well the automatic generated accompaniment fits a givin melody. This study aims to evaluate the effectiveness of the model developed in our project "Automatic Music Accompaniment".
 
 <br><br>
-The purpose of this study is to find out the quality of the automatic music accompaniment system, i.e. how well the automatic generated accompaniment fits a given melody. this study aims to evaluate the effectiveness of the model developed in our project “Automatic Music Accompaniment”.
+The study will takes you about <strong>10 minutes</strong>. In the study, <strong>you will be asked to</strong>
+<br>
+- listen to several pieces of music audios and evaluate the quality of their accompaniments;
+<br>
+- give some comments on the automatic generated music, and our study;
+<br>
+- verify some weakness in the automatic accompaniment system;
+<br>
+- judge whether the automatic accompaniemnt system can help with musicians/non-musicians in their music creation.
 
 <br><br>
-In the study you will be asked to answer two main research questions: <br>
-(1) how is the quality of the automatic music accompaniment system? <br>
-(2) will the automatic accompaniment system help with non-composers in their music creation?
+We would like to invite you to be part of our research project. It is up to you to decide whether or not to take part. If you choose not to take part, there won't be any disadvantages for you and you will hear no more about it. If you decide to take part, please go to <a href="./consent-form/"><strong>User Study</strong></a> and agree with our consent form first. You are still free to withdraw at any time without giving a reason.
 
 <br><br>
-In order to complete the proposed user study, we will seek Bachelors and Masters student participants from universities based in UK and China. Both musicians and non-musicians will be included in this study. You will be asked to listen to a list of audio segments whose accompaniment is generated automatically in our project. For the given segments we will ask you to rate how well you feel the accompaniment complements the melody. This question will be answered by giving ratings for the overall quality and the harmonicity for the music segments. In the questionnaire, we will also ask you to verify some crucial weaknesses in the automatic accompaniment system. In addition, your years of musical training and the music culture you most identify with will be collected for completeness.
+<h3><strong>For More Information</strong></h3>
+Please read <a href="https://www.qmul.ac.uk/privacy/" target="_blank"><strong>Queen Mary's privacy notice</strong></a> for research participants for important information about your personal data and your rights in this respect.
 
 <br><br>
-It is up to you to decide whether or not to take part. If you do decide to take part, you will be given this information sheet to keep and be asked to sign a consent form.
-
-<br><br>
-Please read Queen Mary’s privacy notice for research participants for important information about your personal data and your rights in this respect.
-
-<br><br>
-If you have any questions or concerns about the manner in which the study was conducted please, in the first instance, contact the researcher responsible for the study.
+If you have any questions or concerns about the manner in which the study was conducted please, in the first instance, please contact me at lele.liu@se13.qmul.ac.uk.
 <br><br>
 If this is unsuccessful, or not appropriate, please contact the Secretary at the Queen Mary Ethics of Research Committee, Room W104, Queens’ Building, Mile End Campus, Mile End Road, London, E1 4NS or research-ethics@qmul.ac.uk.
 <br><br>
 If you have any questions relating to data protection, please contact Data Protection Officer, Queens’ Building, Mile End Road, London, E1 4NS or data-protection@qmul.ac.uk
 
+<script src="../static/js/ajax.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/jquery-1.11.2.js"></script>
+<script>
+$(document).ready(function() {
+    
+    $("#go-to-user-study").click(function() {
+        location.href = "./consent-form";
+    })
+})
+</script>
 {% endblock %}

@@ -1,54 +1,78 @@
 {% extends "base.html" %}
 {% block page %}
 
-<h1><strong><center>Consent Form</center></strong></h1>
+<h1><strong><center>User Study - Consent Form</center></strong></h1>
 
 <br>
-Please complete this form after you have read the Information Sheet and/or listened to an explanation about the research.
-
-<br><br>
-Title of Study: user study on automatic music accompaniment
+<strong>Title of Study: User Study on Automatic Music Accompaniment</strong>
 <br>
-Queen Mary Ethics of Research Committee Ref: 1919
+<strong>Queen Mary Ethics of Research Committee Ref: 1919</strong>
 
 <br><br>
-Thank you for considering taking part in this research. The person organizing the research must explain the project to you before you agree to take part. If you have any questions arising from the Information Sheet or explanation already given to you, please ask the researcher before you decide whether to join in. You will be given a copy of this Consent Form to keep and refer to at any time. If you are willing to participate in this study, please circle the appropriate responses and sign and date the declaration underneath.
+Thank you for considering taking part in our research. In the <a href="../"><strong>Information Sheet</strong></a> you can see an explanation on our project and user study. Please see it before you agree to take part. 
+<br><br>
+If you have any questions, please feel free to contact us at: lele.liu@se13.qmul.ac.uk
 
 <br><br>
-1. I agree that the research project named above has been explained to me to my satisfaction in verbal and/or written form. 
+<strong>If you are willing to participate in this study, please read and agree to the following statements.</strong>
 
 <br><br>
-2. I understand that if I decide at any other time during the research that I no longer wish to participate in this project, I can notify the researchers involved and be withdrawn from it immediately
+<p>
+    1. I agree that the research project named above has been explained to me to my satisfaction in verbal and/or written form.
+</p>
+<p>
+    2. I understand that if I decide at any other time during the research that I no longer wish to participate in this project, I can notify the researchers involved and be withdrawn from it immediately.
+</p>
+<p>
+    3. I have read both the notes written above and the Information Sheet about the project, and understand that the research study involves:
+    <br>
+    - Listening to several pieces of music;
+    <br>
+    - Completing a questionnaire asking me about my evaluation about the given music pieces.
+</p>
+<p>
+    4. I understand that the study will include the use of my name and year of musical training.
+</p>
 
-<br><br>
-3. I have read both the notes written above and the Information Sheet about the project, and understand that the research study involves:
 <br>
-- Listening to several pieces of music
-<br>
-- Completing a questionnaire asking me about my evaluation about the given music pieces
-
-<br><br>
 This information will be held and processed for the purpose of evaluating the performance of automatic music accompaniment system. I understand that any information I provide in confidential, and that no information that could lead to the identification of any individual will be collected during the project.
 
 <br><br>
-I agree to take part in the study, which will include use of my personal data.
-
-<br><br>
-Participant’s Signature: ______________________    Date: _____________________
-<br><br>
-Investigator’s Statement: 
+———————————————————————————————————
 <br>
-I Lele Liu confirm that I have carefully explained the nature, demands and any foreseeable risks (where applicable) of the proposed research to the volunteer and provided a copy of this form
+<strong>Investigator’s Statement: </strong>
+<br>
+I (Lele Liu) confirm that I have carefully explained the nature, demands and any foreseeable risks (where applicable) of the proposed research to the volunteer.
 
 <br><br>
-<input type="checkbox">
-I agree to take part in the study, which will include use of my personal data.
+<strong>Participant's Agreement:</strong>
+<br>
+<input type="checkbox" id="agree">
+I have read the above statements and agree to take part in the study.
 
 <br><br>
-<button type="button" class="btn btn-default mybutton">
+<button type="button" id="start" class="btn btn-default mybutton">
     <i class="fa fa-arrow-right" aria-hidden="true"></i>
     <strong>Start</strong>
 </button>
+
+
+<script src="../static/js/ajax.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/jquery-1.11.2.js"></script>
+<script>
+$(document).ready(function() {
+    
+    $("#start").click(function() {
+
+        if($("#agree:checked").val()) {
+            location.href = "../user-study";
+        } else {
+            alert("Please agree to take part in first.");
+        }
+    })
+})
+</script>
 
 
 {% endblock %}

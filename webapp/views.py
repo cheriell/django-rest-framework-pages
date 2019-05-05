@@ -19,6 +19,11 @@ def user_study(request):
     rating_values = RatingValue.objects.all()
     context = {
         'rating_values': rating_values,
+        'segments': [
+            {'no':'1', 'name': 'segment1', 'left': 'true' },
+            {'no':'2', 'name': 'segment2', 'left': 'false'},
+            {'no':'3', 'name': 'segment3', 'left': 'true' },
+        ],
     }
     return render(request, 'user_study.html', context)
 
