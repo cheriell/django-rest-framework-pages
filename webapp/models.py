@@ -18,8 +18,12 @@ class UserStudyRating(models.Model):
     rating5_1 = models.IntegerField(default=0)
     rating5_2 = models.IntegerField(default=0)
 
+    general_a = models.CharField(max_length=10000, default='')
+    general_b = models.CharField(max_length=10000, default='')
+    general_c = models.CharField(max_length=10000, default='')
+
     years_musical_training = models.CharField(max_length=10, default='')
-    musical_culture = models.CharField(max_length=100, default='')
+    music_style = models.CharField(max_length=100, default='')
     name = models.CharField(max_length=100, default='')
     email = models.CharField(max_length=100, default='')
 

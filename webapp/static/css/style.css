@@ -47,14 +47,25 @@
 .footer{
     background-color:rgba(44, 44, 44, 0.65);color:white;
 }
+@media screen and (min-width:1200px) {
+    .footer-wrapper{
+        width:1200px;margin-left:auto;margin-right:auto;
+    }
+}
+@media screen and (max-width:1200px) {
+    .footer-wrapper{
+        width:100%;
+    }
+}
 .footer-wrapper{
-    width:1200px;margin-left:auto;margin-right:auto;
     padding-top:1em;padding-bottom:1em;
 }
 
 /******************************** 主内容页面 ****************************/
 @media screen and (min-width:1200px) {
-    .page{width:1200px;margin-left:auto;margin-right:auto}
+    .page{
+        width:1200px;margin-left:auto;margin-right:auto
+    }
 }
 @media screen and (max-width:1200px) {
     .page{

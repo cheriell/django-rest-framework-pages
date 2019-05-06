@@ -9,7 +9,9 @@ router.register(r'groups', GroupViewSet)
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),    # information sheet, index.html
-    url(r'^consent-form/', views.consent_form, name='consent-form'),  # consent form, consent_form.html
-    url(r'^user-study/', views.user_study, name='user-study'),   # user study, user_study.html
-    url(r'^viewapi/', include(router.urls)),
+    url(r'^consent-form/$', views.consent_form, name='consent-form'),  # consent form, consent_form.html
+    url(r'^user-study/$', views.user_study, name='user-study'),   # user study, user_study.html
+    url(r'^thanks/$', views.thanks, name='thanks'),   # thanks for participation, thanks.html
+
+    url(r'^viewapi/$', include(router.urls)),
 ]
