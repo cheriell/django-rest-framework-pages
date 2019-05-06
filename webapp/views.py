@@ -20,8 +20,8 @@ def user_study(request):
     context = {
         'rating_values': rating_values,
         'segments': [
-            {'no': '1', 'name': 'segment1', 'left': 'true' },
-            {'no': '2', 'name': 'segment2', 'left': 'false'},
+            {'no': '1', 'name': 'mond_2_segment1', 'left': 'true' },
+            {'no': '2', 'name': 'chp_op18_segment1', 'left': 'false'},
             {'no': '3', 'name': 'segment3', 'left': 'true' },
             {'no': '4', 'name': 'segment4', 'left': 'false'},
             {'no': '5', 'name': 'segment5', 'left': 'true' },

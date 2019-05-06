@@ -21,7 +21,7 @@
         <div class="col-sm-6">
             <center>
                 <audio controls class="myaudio">
-                    <source src="../static/audio/{{ segment.name }}_raw.wav" stype="audio/wav">
+                    <source src="../static/audio/{{ segment.name }}.melody.mp3" stype="audio/mpeg">
                 </audio>
             </center>
         </div>
@@ -31,7 +31,7 @@
         <div class="col-sm-6">
             <center>
                 <audio controls class="myaudio">
-                    <source src="../static/audio/{{ segment.name }}_1.wav" stype="audio/wav">
+                    <source src="../static/audio/{{ segment.name }}.chroma-based.mp3" stype="audio/mpeg">
                 </audio>
             </center>
         </div>
@@ -48,7 +48,7 @@
         <div class="col-sm-6">
             <center>
                 <audio controls class="myaudio">
-                    <source src="../static/audio/{{ segment.name }}_2.wav" stype="audio/wav">
+                    <source src="../static/audio/{{ segment.name }}.midi-pitch.mp3" stype="audio/mpeg">
                 </audio>
             </center>
         </div>
@@ -75,7 +75,7 @@
             <center>
             {% endif %}
                 <audio controls class="myaudio">
-                    <source src="../static/audio/{{ segment.name }}_1.wav" stype="audio/wav">
+                    <source src="../static/audio/{{ segment.name }}.chroma-based.mp3" stype="audio/mpeg">
                 </audio>
             {% if segment.left == 'true' %}
             </center>
