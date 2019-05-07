@@ -22,9 +22,9 @@ def user_study(request):
         'segments': [
             {'no': '1', 'name': 'mond_2_segment1', 'left': 'true' },
             {'no': '2', 'name': 'chp_op18_segment1', 'left': 'false'},
-            {'no': '3', 'name': 'segment3', 'left': 'true' },
-            {'no': '4', 'name': 'segment4', 'left': 'false'},
-            {'no': '5', 'name': 'segment5', 'left': 'true' },
+            {'no': '3', 'name': 'viennese1-4_segment1', 'left': 'true' },
+            {'no': '4', 'name': 'tmte04-63j_segment1', 'left': 'false'},
+            {'no': '5', 'name': 'clementi_opus36_5_3_segment1', 'left': 'true' },
         ],
         'music_styles': [
             {'value': 'African'},
@@ -79,15 +79,14 @@ def thanks(request):
         last_rating = r
 
     if (serialise(user_study_rating) != serialise(last_rating)) :
-        user_study_rating.serial_no += len(user_study_ratings)
+        user_study_rating.serial_no = last_rating.serial_no + 1
         user_study_rating.save()
     else:
-        user_study_rating.serial_no += len(user_study_ratings) - 1
+        user_study_rating.serial_no = last_rating.serial_no
     
     context = {
         'name': name,
         'serial_no': user_study_rating.serial_no,
-        'user_study_ratings': user_study_ratings,
     }
     return render(request, 'thanks.html', context)
 
