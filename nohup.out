@@ -10236,3 +10236,17 @@ Exception happened during processing of request from ('182.97.74.111', 38224)
 [07/May/2019 13:43:11] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
 [07/May/2019 13:43:11] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
 [07/May/2019 13:43:11] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[07/May/2019 13:45:54] "GET /admin/webapp/userstudyrating/ HTTP/1.1" 200 4940
+[07/May/2019 13:45:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[07/May/2019 13:45:55] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[07/May/2019 13:45:55] "GET /static/admin/js/core.js HTTP/1.1" 200 7135
+[07/May/2019 13:45:55] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[07/May/2019 13:45:55] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[07/May/2019 13:45:56] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+[07/May/2019 13:45:56] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[07/May/2019 13:45:56] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[07/May/2019 13:45:56] "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+[07/May/2019 13:45:57] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+[07/May/2019 13:45:57] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[07/May/2019 13:45:58] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[07/May/2019 13:45:58] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
