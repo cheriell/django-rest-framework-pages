@@ -68,9 +68,8 @@ def thanks(request):
     years_musical_training = request.POST['years_musical_training']
     music_style = request.POST['music_style']
     name = request.POST['name']
-    email = request.POST['email']
 
-    user_study_rating = UserStudyRating(rating1_1=rating1_1, rating1_2=rating1_2, rating2_1=rating2_1, rating2_2=rating2_2, rating3_1=rating3_1, rating3_2=rating3_2, rating4_1=rating4_1, rating4_2=rating4_2, rating5_1=rating5_1, rating5_2=rating5_2, general_a=general_a, general_b=general_b, general_c=general_c, years_musical_training=years_musical_training, music_style=music_style, name=name, email=email)
+    user_study_rating = UserStudyRating(rating1_1=rating1_1, rating1_2=rating1_2, rating2_1=rating2_1, rating2_2=rating2_2, rating3_1=rating3_1, rating3_2=rating3_2, rating4_1=rating4_1, rating4_2=rating4_2, rating5_1=rating5_1, rating5_2=rating5_2, general_a=general_a, general_b=general_b, general_c=general_c, years_musical_training=years_musical_training, music_style=music_style, name=name)
 
     user_study_ratings = UserStudyRating.objects.all()
 
@@ -104,7 +103,6 @@ def serialise(r):
     result += r.years_musical_training
     result += r.music_style
     result += r.name
-    result += r.email
 
     return result
 
