@@ -19,9 +19,12 @@
     <p>Please first listen to the original music melody:</p>
     <div class="row">
         <div class="col-sm-6">
+                <a href="../static/audio/{{ segment.name }}.melody.mp3" target="_blank">here</a>.
             <center>
                 <audio controls class="myaudio">
-                    <source src="../static/audio/{{ segment.name }}.melody.mp3" stype="audio/mpeg">
+                    <source src="../static/audio/{{ segment.name }}.melody.mp3" stype="audio/mpeg" />
+                    <source src="../static/audio/{{ segment.name }}.melody.ogg" stype="audio/ogg" />
+                Your browser does not support this audio format, see it <a href="../static/audio/{{ segment.name }}.melody.mp3" target="_blank">here</a>.
                 </audio>
             </center>
         </div>
@@ -31,7 +34,9 @@
         <div class="col-sm-6">
             <center>
                 <audio controls class="myaudio">
-                    <source src="../static/audio/{{ segment.name }}.midi-pitch.mp3" stype="audio/mpeg">
+                    <source src="../static/audio/{{ segment.name }}.midi-pitch.mp3" stype="audio/mpeg" />
+                    <source src="../static/audio/{{ segment.name }}.midi-pitch.ogg" stype="audio/ogg" />
+                Your browser does not support this audio format, see it <a href="../static/audio/{{ segment.name }}.midi-pitch.mp3" target="_blank">here</a>.
                 </audio>
             </center>
         </div>
@@ -48,7 +53,9 @@
         <div class="col-sm-6">
             <center>
                 <audio controls class="myaudio">
-                    <source src="../static/audio/{{ segment.name }}.chroma-based.mp3" stype="audio/mpeg">
+                    <source src="../static/audio/{{ segment.name }}.chroma-based.mp3" stype="audio/mpeg" />
+                    <source src="../static/audio/{{ segment.name }}.chroma-based.ogg" stype="audio/ogg" />
+                Your browser does not support this audio format, see it <a href="../static/audio/{{ segment.name }}.chroma-based.mp3" target="_blank">here</a>.
                 </audio>
             </center>
         </div>
@@ -75,7 +82,9 @@
             <center>
             {% endif %}
                 <audio controls class="myaudio">
-                    <source src="../static/audio/{{ segment.name }}.chroma-based.mp3" stype="audio/mpeg">
+                    <source src="../static/audio/{{ segment.name }}.chroma-based.mp3" stype="audio/mpeg" />
+                    <source src="../static/audio/{{ segment.name }}.chroma-based.ogg" stype="audio/ogg" />
+                Your browser does not support this audio format, see it <a href="../static/audio/{{ segment.name }}.chroma-based.mp3" target="_blank">here</a>.
                 </audio>
             {% if segment.left == 'true' %}
             </center>
