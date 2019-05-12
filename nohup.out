@@ -18085,3 +18085,1028 @@ Not Found: /favicon.ico
 [09/May/2019 02:36:10] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
 [09/May/2019 02:36:10] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
 [09/May/2019 02:36:10] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 02:47:38] "GET /user-study/ HTTP/1.1" 200 26946
+[09/May/2019 02:47:39] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 23739
+[09/May/2019 02:47:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[09/May/2019 02:47:39] "GET /static/css/style.css HTTP/1.1" 200 2649
+[09/May/2019 02:47:39] "GET /static/js/check.js HTTP/1.1" 200 492
+[09/May/2019 02:47:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 02:47:39] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 02:47:39] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 02:47:41] "GET /static/img/background1.jpg HTTP/1.1" 200 31304
+[09/May/2019 02:47:41] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 391880
+[09/May/2019 02:47:41] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 200 410689
+[09/May/2019 02:47:41] "GET /static/audio/mond_2_segment1.midi-pitch.mp3 HTTP/1.1" 200 404419
+[09/May/2019 02:47:41] "GET /static/audio/chp_op18_segment1.melody.mp3 HTTP/1.1" 200 695946
+[09/May/2019 02:47:41] "GET /static/audio/tmte04-63j_segment1.melody.mp3 HTTP/1.1" 200 533987
+[09/May/2019 02:47:41] "GET /static/audio/chp_op18_segment1.midi-pitch.mp3 HTTP/1.1" 200 715799
+[09/May/2019 02:47:41] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
+[09/May/2019 02:47:41] "GET /static/audio/viennese1-4_segment1.melody.mp3 HTTP/1.1" 200 714754
+[09/May/2019 02:47:41] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 02:47:41] "GET /static/audio/viennese1-4_segment1.midi-pitch.mp3 HTTP/1.1" 200 750280
+[09/May/2019 02:47:41] "GET /static/audio/tmte04-63j_segment1.midi-pitch.mp3 HTTP/1.1" 200 559064
+[09/May/2019 02:47:42] "GET /static/audio/clementi_opus36_5_3_segment1.midi-pitch.mp3 HTTP/1.1" 200 796256
+[09/May/2019 02:47:42] "GET /static/audio/tmte04-63j_segment1.chroma-based.mp3 HTTP/1.1" 200 567423
+[09/May/2019 02:47:42] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 02:47:42] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 200 410689
+[09/May/2019 02:47:42] "GET /static/audio/tmte04-63j_segment1.chroma-based.mp3 HTTP/1.1" 200 567423
+[09/May/2019 02:47:42] "GET /static/audio/clementi_opus36_5_3_segment1.melody.mp3 HTTP/1.1" 200 759685
+[09/May/2019 02:47:42] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
+[09/May/2019 02:47:42] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 02:47:42] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 02:47:50] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 391880
+[09/May/2019 02:47:58] "GET /static/audio/clementi_opus36_5_3_segment1.melody.mp3 HTTP/1.1" 200 759685
+[09/May/2019 02:54:50] "GET /user-study/ HTTP/1.1" 200 26946
+[09/May/2019 02:54:51] "GET /static/js/check.js HTTP/1.1" 304 0
+[09/May/2019 02:54:54] "GET /static/audio/mond_2_segment1.midi-pitch.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:54] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:54] "GET /static/audio/chp_op18_segment1.melody.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:54] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:54] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:54] "GET /static/audio/chp_op18_segment1.midi-pitch.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:56] "GET /static/audio/tmte04-63j_segment1.midi-pitch.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:56] "GET /static/audio/viennese1-4_segment1.melody.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:56] "GET /static/audio/tmte04-63j_segment1.melody.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:56] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:56] "GET /static/audio/viennese1-4_segment1.midi-pitch.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:56] "GET /static/audio/tmte04-63j_segment1.chroma-based.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:57] "GET /static/audio/clementi_opus36_5_3_segment1.midi-pitch.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:57] "GET /static/audio/clementi_opus36_5_3_segment1.melody.mp3 HTTP/1.1" 304 0
+[09/May/2019 02:54:57] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 02:54:59] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 02:58:45] "GET /user-study/?nsukey=%2FtvbPIiRweKK14ZHXweea4lpvdAojcaG83rGP6WaGRIg5UkRmVLflmU1Z%2B1bLN0qLd9ivqWfO2g3Mr1HhrSrEnIoZkuNvcUYZMMUGFwcugkYlGwuLbc1rM4TzIU3TM78AudkD0R%2FMMxK6Ax4E03bvq%2FK5TRRzn4A5rFk8KAR0erwD4Pck1zFwWXyLwALuYhMLE3Lkjq2oLCBEVIqaAZ%2F4Q%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 02:58:45] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 23739
+[09/May/2019 02:58:45] "GET /static/css/style.css HTTP/1.1" 200 2649
+[09/May/2019 02:58:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[09/May/2019 02:58:45] "GET /static/js/check.js HTTP/1.1" 200 492
+[09/May/2019 02:58:46] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 02:58:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 02:58:46] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 02:58:47] "GET /static/img/background2.jpg HTTP/1.1" 200 32846
+[09/May/2019 02:58:47] "GET /static/audio/mond_2_segment1.midi-pitch.mp3 HTTP/1.1" 200 404419
+[09/May/2019 02:58:47] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 391880
+[09/May/2019 02:58:47] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 200 410689
+[09/May/2019 02:58:47] "GET /static/audio/chp_op18_segment1.melody.mp3 HTTP/1.1" 200 695946
+[09/May/2019 02:58:48] "GET /static/audio/chp_op18_segment1.midi-pitch.mp3 HTTP/1.1" 200 715799
+[09/May/2019 02:58:48] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
+[09/May/2019 02:58:50] "GET /static/audio/viennese1-4_segment1.melody.mp3 HTTP/1.1" 200 714754
+[09/May/2019 02:58:50] "GET /static/audio/viennese1-4_segment1.midi-pitch.mp3 HTTP/1.1" 200 750280
+[09/May/2019 02:58:51] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 02:58:51] "GET /static/audio/tmte04-63j_segment1.melody.mp3 HTTP/1.1" 200 533987
+[09/May/2019 02:58:52] "GET /static/audio/tmte04-63j_segment1.midi-pitch.mp3 HTTP/1.1" 200 559064
+[09/May/2019 02:58:54] "GET /static/audio/tmte04-63j_segment1.chroma-based.mp3 HTTP/1.1" 200 567423
+[09/May/2019 02:58:54] "GET /static/audio/clementi_opus36_5_3_segment1.melody.mp3 HTTP/1.1" 200 759685
+[09/May/2019 02:58:55] "GET /static/audio/clementi_opus36_5_3_segment1.midi-pitch.mp3 HTTP/1.1" 200 796256
+[09/May/2019 02:58:57] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 02:59:01] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
+[09/May/2019 02:59:02] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 02:59:05] "POST /thanks/ HTTP/1.1" 200 3018
+[09/May/2019 02:59:06] "GET /static/img/QMUL-logo.gif HTTP/1.1" 200 46415
+[09/May/2019 02:59:45] "GET /user-study/?nsukey=%2FtvbPIiRweKK14ZHXweea4lpvdAojcaG83rGP6WaGRIg5UkRmVLflmU1Z%2B1bLN0qLd9ivqWfO2g3Mr1HhrSrEnIoZkuNvcUYZMMUGFwcugkYlGwuLbc1rM4TzIU3TM78AudkD0R%2FMMxK6Ax4E03bvq%2FK5TRRzn4A5rFk8KAR0erwD4Pck1zFwWXyLwALuYhMLE3Lkjq2oLCBEVIqaAZ%2F4Q%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 02:59:47] "GET /static/js/check.js HTTP/1.1" 200 492
+[09/May/2019 02:59:48] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 02:59:49] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 02:59:50] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 03:00:07] "GET /user-study/?nsukey=LZJAJFeGH4U4reEZgvHpBesbhpJB2kTSmDGYh9vveUg2vJQ5%2FHno7LXURI%2FxD66QDuf682LXH15i%2Fg92esMYfN17Xb5vCQEKO3HUmnxJsRIsEPT19oVzDx%2FXwa0DMzvRXFTa1gH%2B4Jle2gLUerXw78mf0CN15ggsRl1A6dWa10OwHh%2F9UqJSY%2F6A2Dw4X9Ee3SLHPw0ahDtppq9Y27l2qQ%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 03:00:08] "GET /user-study/?nsukey=h1145QxX9M98emZOAXqvTclADF3z5tCSvEtu8k3x2N%2FiaSKwvQ8YFm95jhToBsRhVPFZZRuLsL7VBDqhScmFvf90YoQYGe4zoR9aSvzzEXlbhC9r2q8mSk9Rl0v3CYXCvaj9ljg5n9I1XzxK3MKXfMzurW2SEinYXcbDn5Iux7rdmm2QGOR2OuSN8n%2B%2F4%2BOQu2eKHidwIY%2F%2BW6UpUBsP6A%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 03:00:08] "GET /static/audio/viennese1-4_segment1.melody.mp3 HTTP/1.1" 200 714754
+[09/May/2019 03:00:08] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
+[09/May/2019 03:00:08] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 03:00:09] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 03:00:09] "GET /static/audio/clementi_opus36_5_3_segment1.melody.mp3 HTTP/1.1" 200 759685
+[09/May/2019 03:00:09] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
+[09/May/2019 03:00:09] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 23739
+[09/May/2019 03:00:09] "GET /static/js/check.js HTTP/1.1" 200 492
+[09/May/2019 03:00:09] "GET /static/css/style.css HTTP/1.1" 200 2649
+[09/May/2019 03:00:09] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 03:00:10] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[09/May/2019 03:00:10] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 03:00:11] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 03:00:12] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 03:00:22] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 391880
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[09/May/2019 03:00:23] "GET /static/img/background2.jpg HTTP/1.1" 200 32846
+[09/May/2019 03:00:23] "GET /static/audio/mond_2_segment1.midi-pitch.mp3 HTTP/1.1" 200 401408
+[09/May/2019 03:00:23] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 200 410689
+[09/May/2019 03:00:23] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 03:00:23] "GET /static/img/background1.jpg HTTP/1.1" 200 31304
+[09/May/2019 03:00:24] "GET /static/audio/chp_op18_segment1.melody.mp3 HTTP/1.1" 200 589824
+[09/May/2019 03:00:24] "GET /static/audio/chp_op18_segment1.midi-pitch.mp3 HTTP/1.1" 200 638976
+[09/May/2019 03:00:25] "GET /static/audio/viennese1-4_segment1.midi-pitch.mp3 HTTP/1.1" 200 750280
+[09/May/2019 03:00:25] "GET /static/audio/tmte04-63j_segment1.melody.mp3 HTTP/1.1" 200 533987
+[09/May/2019 03:00:25] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
+[09/May/2019 03:00:25] "GET /static/audio/viennese1-4_segment1.melody.mp3 HTTP/1.1" 200 714754
+Not Found: /favicon.ico
+[09/May/2019 03:00:25] "GET /favicon.ico HTTP/1.1" 404 2829
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[09/May/2019 03:00:26] "GET /static/audio/tmte04-63j_segment1.midi-pitch.mp3 HTTP/1.1" 200 559064
+[09/May/2019 03:00:26] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 03:00:27] "GET /static/audio/tmte04-63j_segment1.chroma-based.mp3 HTTP/1.1" 200 567423
+[09/May/2019 03:00:27] "GET /static/audio/clementi_opus36_5_3_segment1.midi-pitch.mp3 HTTP/1.1" 200 796256
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[09/May/2019 03:00:27] "GET /static/audio/clementi_opus36_5_3_segment1.melody.mp3 HTTP/1.1" 200 753664
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[09/May/2019 03:00:27] "GET /static/audio/clementi_opus36_5_3_segment1.melody.mp3 HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+[09/May/2019 03:00:27] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 03:00:27] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 200 410689
+[09/May/2019 03:00:28] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
+[09/May/2019 03:00:29] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 03:00:29] "GET /static/audio/tmte04-63j_segment1.chroma-based.mp3 HTTP/1.1" 200 567423
+[09/May/2019 03:00:29] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 03:00:51] "POST /thanks/ HTTP/1.1" 200 3022
+Internal Server Error: /thanks/
+Traceback (most recent call last):
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'rating1_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/Blog/blog.django/webapp/views.py", line 49, in thanks
+    rating1_1 = request.POST['rating1_1']
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'rating1_1'
+[09/May/2019 03:00:54] "GET /thanks/?nsukey=5lQSmzdTowUtdsS1zLx%2Bt2s9ahyh2texY2Ns0NzEtQb7ePzT9AjsZEXFMedILh8Y9%2FwPp4a2i7XvQNo4ICWyw9nKAEhHX3B3hSHdFgbisSewVp4ZX6JtYzepMcrmUpKHdv1zwXtqQLI6o10sw63FIfmq%2FNFxY9vem7e05nuCGJnq9nzX3kOEnT73K3sBBaKAJPBT%2FQ5m47IfRMLNPTehVg%3D%3D HTTP/1.1" 500 73381
+[09/May/2019 03:01:02] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 391880
+[09/May/2019 03:01:02] "GET /static/audio/mond_2_segment1.midi-pitch.mp3 HTTP/1.1" 200 404419
+[09/May/2019 03:01:02] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 434176
+[09/May/2019 03:01:02] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 200 368640
+[09/May/2019 03:01:02] "GET /static/audio/chp_op18_segment1.melody.mp3 HTTP/1.1" 200 303104
+[09/May/2019 03:01:02] "GET /static/audio/chp_op18_segment1.midi-pitch.mp3 HTTP/1.1" 200 368640
+[09/May/2019 03:01:07] "GET /user-study/?nsukey=LZJAJFeGH4U4reEZgvHpBesbhpJB2kTSmDGYh9vveUg2vJQ5%2FHno7LXURI%2FxD66QDuf682LXH15i%2Fg92esMYfN17Xb5vCQEKO3HUmnxJsRIsEPT19oVzDx%2FXwa0DMzvRXFTa1gH%2B4Jle2gLUerXw78mf0CN15ggsRl1A6dWa10OwHh%2F9UqJSY%2F6A2Dw4X9Ee3SLHPw0ahDtppq9Y27l2qQ%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 03:01:08] "GET /static/js/check.js HTTP/1.1" 200 492
+[09/May/2019 03:01:08] "GET /user-study/?nsukey=h1145QxX9M98emZOAXqvTclADF3z5tCSvEtu8k3x2N%2FiaSKwvQ8YFm95jhToBsRhVPFZZRuLsL7VBDqhScmFvf90YoQYGe4zoR9aSvzzEXlbhC9r2q8mSk9Rl0v3CYXCvaj9ljg5n9I1XzxK3MKXfMzurW2SEinYXcbDn5Iux7rdmm2QGOR2OuSN8n%2B%2F4%2BOQu2eKHidwIY%2F%2BW6UpUBsP6A%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 03:01:09] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 03:01:09] "GET /static/js/check.js HTTP/1.1" 200 492
+[09/May/2019 03:01:09] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 03:01:10] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 03:01:11] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 03:01:11] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 03:01:11] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 03:01:51] "GET /thanks HTTP/1.1" 301 0
+Internal Server Error: /thanks/
+Traceback (most recent call last):
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'rating1_1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/Blog/blog.django/webapp/views.py", line 49, in thanks
+    rating1_1 = request.POST['rating1_1']
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'rating1_1'
+[09/May/2019 03:01:54] "GET /thanks/?nsukey=5lQSmzdTowUtdsS1zLx%2Bt2s9ahyh2texY2Ns0NzEtQb7ePzT9AjsZEXFMedILh8Y9%2FwPp4a2i7XvQNo4ICWyw9nKAEhHX3B3hSHdFgbisSewVp4ZX6JtYzepMcrmUpKHdv1zwXtqQLI6o10sw63FIfmq%2FNFxY9vem7e05nuCGJnq9nzX3kOEnT73K3sBBaKAJPBT%2FQ5m47IfRMLNPTehVg%3D%3D HTTP/1.1" 500 72155
+[09/May/2019 03:03:43] "GET / HTTP/1.1" 200 4639
+[09/May/2019 03:12:30] "GET /consent-form/ HTTP/1.1" 200 4676
+[09/May/2019 03:12:35] "GET /user-study/ HTTP/1.1" 200 26946
+[09/May/2019 03:12:36] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 03:12:37] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 03:16:16] "GET /user-study/ HTTP/1.0" 200 26946
+[09/May/2019 03:17:08] "GET /user-study/?nsukey=4dI86QAVJtk7ne%2FVHl3txus0BGHdCFTWKdnXUN%2F6OzhzXPi%2BKPoekRKl6fDt0cS4fkLCYEmJmQ050OdHwnwqWhzf%2FcLVhd2QNfySiesoOLGqQCJmfnWMbBEJJaaYtx0iLmLGaZN29K0zx5e3sgF7tdyaXZ9Wb29rPthJG%2FzxudsiOPxSBIN%2BE5Av1Bm6bUP8H507T%2B%2BTB9zCMUwDadRKow%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 03:17:09] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
+[09/May/2019 03:17:09] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 03:17:09] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
+[09/May/2019 03:17:09] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 03:17:35] "GET / HTTP/1.1" 200 4639
+[09/May/2019 03:17:36] "GET /?nsukey=Y%2BJpafOpnl8r%2BbTuHzCXP6QUcnFAw9U%2Fc2CQ2G92%2BoxCklf8n6vya1KgmHIkSZE0L45aRJD4RfbQwL%2F%2FXMiv3IVF2D%2B%2BdusnNYQ7utyJH0NR7WFsZ0Ly2fluyBHEtCGkxQpYm6D6BTCPmZOSkA%2FuVBiiCz30RaVDdbrCH0PBt4f0zgsAUsexqryfY4TFe5MXjhudGhBrzCnmR6L1%2BeX1aw%3D%3D HTTP/1.1" 200 4639
+[09/May/2019 03:17:37] "GET /static/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1" 200 56780
+[09/May/2019 03:18:07] "GET /user-study/?nsukey=4dI86QAVJtk7ne%2FVHl3txus0BGHdCFTWKdnXUN%2F6OzhzXPi%2BKPoekRKl6fDt0cS4fkLCYEmJmQ050OdHwnwqWhzf%2FcLVhd2QNfySiesoOLGqQCJmfnWMbBEJJaaYtx0iLmLGaZN29K0zx5e3sgF7tdyaXZ9Wb29rPthJG%2FzxudsiOPxSBIN%2BE5Av1Bm6bUP8H507T%2B%2BTB9zCMUwDadRKow%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 03:18:08] "GET /static/js/check.js HTTP/1.1" 200 492
+[09/May/2019 03:18:09] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 03:18:09] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 03:18:10] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 03:18:31] "GET /user-study/?nsukey=PlbrNYfko2yDPeKYF7lBCbe%2Fm%2B4qrEhNI9cjUF%2BF0m3SSlbds5ROmJu7k5%2BfI7jQVIKXiU9HgZjZ2L8TxwELvTdH19iKSM5Nnw1GkJyXNGPxvexpHZeUJNZK70er9WNJxBhb%2BaOE3coP%2BPuQZBMCfgd1%2BHqdgRj%2BXqBexEotS4R1MVA77%2FVlA3Po9Z0GEruwOETHrrmT3G5v5jmEPMnjlg%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 03:18:31] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 23739
+[09/May/2019 03:18:31] "GET /static/css/style.css HTTP/1.1" 200 2649
+[09/May/2019 03:18:32] "GET /static/js/check.js HTTP/1.1" 200 492
+[09/May/2019 03:18:32] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[09/May/2019 03:18:32] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 03:18:32] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 03:18:32] "GET /static/img/background2.jpg HTTP/1.1" 200 32846
+[09/May/2019 03:18:33] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 03:18:36] "GET /?nsukey=Y%2BJpafOpnl8r%2BbTuHzCXP6QUcnFAw9U%2Fc2CQ2G92%2BoxCklf8n6vya1KgmHIkSZE0L45aRJD4RfbQwL%2F%2FXMiv3IVF2D%2B%2BdusnNYQ7utyJH0NR7WFsZ0Ly2fluyBHEtCGkxQpYm6D6BTCPmZOSkA%2FuVBiiCz30RaVDdbrCH0PBt4f0zgsAUsexqryfY4TFe5MXjhudGhBrzCnmR6L1%2BeX1aw%3D%3D HTTP/1.1" 200 4639
+[09/May/2019 03:18:38] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 03:18:38] "GET /user-study/?nsukey=PlbrNYfko2yDPeKYF7lBCbe%2Fm%2B4qrEhNI9cjUF%2BF0m3SSlbds5ROmJu7k5%2BfI7jQVIKXiU9HgZjZ2L8TxwELvTdH19iKSM5Nnw1GkJyXNGPxvexpHZeUJNZK70er9WNJxBhb%2BaOE3coP%2BPuQZBMCfgd1%2BHqdgRj%2BXqBexEotS4R1MVA77%2FVlA3Po9Z0GEruwOETHrrmT3G5v5jmEPMnjlg%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 03:18:39] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 23739
+[09/May/2019 03:18:39] "GET /static/css/style.css HTTP/1.1" 200 2649
+[09/May/2019 03:18:39] "GET /static/js/check.js HTTP/1.1" 200 492
+[09/May/2019 03:18:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 03:18:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[09/May/2019 03:18:39] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 03:18:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 03:18:40] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 03:18:40] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 03:18:40] "GET /static/img/background2.jpg HTTP/1.1" 200 32846
+[09/May/2019 03:18:41] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 391880
+[09/May/2019 03:18:41] "GET /static/audio/mond_2_segment1.midi-pitch.mp3 HTTP/1.1" 200 404419
+[09/May/2019 03:18:42] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:42] "GET /static/audio/chp_op18_segment1.melody.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:42] "GET /static/audio/chp_op18_segment1.midi-pitch.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:42] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:42] "GET /static/audio/viennese1-4_segment1.melody.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:42] "GET /static/audio/viennese1-4_segment1.midi-pitch.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:42] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:43] "GET /static/audio/tmte04-63j_segment1.melody.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:43] "GET /static/audio/tmte04-63j_segment1.midi-pitch.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:43] "GET /static/audio/tmte04-63j_segment1.chroma-based.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:43] "GET /static/audio/clementi_opus36_5_3_segment1.melody.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:43] "GET /static/audio/clementi_opus36_5_3_segment1.midi-pitch.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:44] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:44] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:44] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:44] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:44] "GET /static/audio/tmte04-63j_segment1.chroma-based.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:44] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 155648
+[09/May/2019 03:18:45] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 391880
+Not Found: /favicon.ico
+[09/May/2019 03:18:46] "GET /favicon.ico HTTP/1.1" 404 2829
+[09/May/2019 03:18:57] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 391880
+[09/May/2019 03:19:16] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 391880
+[09/May/2019 03:19:16] "GET /user-study/?nsukey=fVdc4BKy8iufIf7zwE%2BPcRLA%2B%2FQRXKMNACfg2MaYX%2BIv8vCmaNa1JqvizAzuFcFxvhJDoQeusgQAGBdq8yEo4rACcG5NPyzFVMcE5lzrjcSoH6pmmR58cjdjIzhvkB1cGvQyDWt%2BGMFjdX%2Fo%2BC8p4A%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 03:19:17] "GET /user-study/?nsukey=fVdc4BKy8iufIf7zwE%2BPcRLA%2B%2FQRXKMNACfg2MaYX%2BIv8vCmaNa1JqvizAzuFcFxvhJDoQeusgQAGBdq8yEo4rACcG5NPyzFVMcE5lzrjcSoH6pmmR58cjdjIzhvkB1cGvQyDWt%2BGMFjdX%2Fo%2BC8p4A%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 03:19:31] "GET /user-study/?nsukey=PlbrNYfko2yDPeKYF7lBCbe%2Fm%2B4qrEhNI9cjUF%2BF0m3SSlbds5ROmJu7k5%2BfI7jQVIKXiU9HgZjZ2L8TxwELvTdH19iKSM5Nnw1GkJyXNGPxvexpHZeUJNZK70er9WNJxBhb%2BaOE3coP%2BPuQZBMCfgd1%2BHqdgRj%2BXqBexEotS4R1MVA77%2FVlA3Po9Z0GEruwOETHrrmT3G5v5jmEPMnjlg%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 03:19:32] "GET /static/js/check.js HTTP/1.1" 200 492
+[09/May/2019 03:19:32] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 03:19:33] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 03:19:34] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 03:20:16] "GET /user-study/?nsukey=fVdc4BKy8iufIf7zwE%2BPcRLA%2B%2FQRXKMNACfg2MaYX%2BIv8vCmaNa1JqvizAzuFcFxvhJDoQeusgQAGBdq8yEo4rACcG5NPyzFVMcE5lzrjcSoH6pmmR58cjdjIzhvkB1cGvQyDWt%2BGMFjdX%2Fo%2BC8p4A%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 03:20:18] "GET /static/js/check.js HTTP/1.1" 200 492
+[09/May/2019 03:20:19] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 03:20:20] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 03:20:22] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 03:23:14] "HEAD /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 90112
+[09/May/2019 03:23:16] "HEAD /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 98304
+[09/May/2019 03:23:17] "HEAD /static/audio/clementi_opus36_5_3_segment1.melody.mp3 HTTP/1.1" 200 90112
+[09/May/2019 03:23:50] "HEAD /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 90112
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[09/May/2019 03:23:50] "HEAD /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+[09/May/2019 03:27:23] "GET / HTTP/1.1" 200 4826
+[09/May/2019 03:29:57] "GET / HTTP/1.1" 200 4843
+[09/May/2019 04:02:49] "GET / HTTP/1.1" 200 4843
+[09/May/2019 05:03:24] "GET /user-study/ HTTP/1.0" 200 26946
+[09/May/2019 05:04:08] "GET /user-study/?nsukey=CF%2FrBx6D2V1xbGLKlXwG0ki5%2FmMycHm2CTSOKTpGyodvQ%2Fgz72C49o9eNeajDvXQnlyb6rFr7eAjIjp9Gp8XGbjSToAe%2F71xgVVOymw3sJiqbJ4JDR2okiZf1IdMKAbPuFR%2FwlUOHtgz5VCAWJ3eJJDqs2sGQucxB%2BvT4Byk%2B63DSo3LBNGgj7QW03fnXt42DOc%2Bj%2FlEwq0jV2t0vg08RQ%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 05:04:09] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 391880
+[09/May/2019 05:04:10] "GET /static/audio/mond_2_segment1.midi-pitch.mp3 HTTP/1.1" 200 404419
+[09/May/2019 05:04:10] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 200 410689
+[09/May/2019 05:04:10] "GET /static/audio/chp_op18_segment1.midi-pitch.mp3 HTTP/1.1" 200 715799
+[09/May/2019 05:04:10] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
+[09/May/2019 05:04:10] "GET /static/audio/chp_op18_segment1.melody.mp3 HTTP/1.1" 200 695946
+[09/May/2019 05:04:11] "GET /static/audio/viennese1-4_segment1.melody.mp3 HTTP/1.1" 200 714754
+[09/May/2019 05:04:12] "GET /static/audio/viennese1-4_segment1.midi-pitch.mp3 HTTP/1.1" 200 750280
+[09/May/2019 05:04:12] "GET /static/audio/tmte04-63j_segment1.midi-pitch.mp3 HTTP/1.1" 200 559064
+[09/May/2019 05:04:12] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 05:04:12] "GET /static/audio/tmte04-63j_segment1.melody.mp3 HTTP/1.1" 200 533987
+[09/May/2019 05:04:12] "GET /static/audio/clementi_opus36_5_3_segment1.melody.mp3 HTTP/1.1" 200 753664
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[09/May/2019 05:04:12] "GET /static/audio/clementi_opus36_5_3_segment1.melody.mp3 HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+[09/May/2019 05:04:13] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 200 410689
+[09/May/2019 05:04:13] "GET /static/audio/clementi_opus36_5_3_segment1.midi-pitch.mp3 HTTP/1.1" 200 770048
+Not Found: /favicon.ico
+[09/May/2019 05:04:13] "GET /favicon.ico HTTP/1.1" 404 2829
+[09/May/2019 05:04:13] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 05:04:14] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 713709
+[09/May/2019 05:04:14] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 200 757595
+[09/May/2019 05:04:14] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 98304
+[09/May/2019 05:05:08] "GET /user-study/?nsukey=CF%2FrBx6D2V1xbGLKlXwG0ki5%2FmMycHm2CTSOKTpGyodvQ%2Fgz72C49o9eNeajDvXQnlyb6rFr7eAjIjp9Gp8XGbjSToAe%2F71xgVVOymw3sJiqbJ4JDR2okiZf1IdMKAbPuFR%2FwlUOHtgz5VCAWJ3eJJDqs2sGQucxB%2BvT4Byk%2B63DSo3LBNGgj7QW03fnXt42DOc%2Bj%2FlEwq0jV2t0vg08RQ%3D%3D HTTP/1.1" 200 26946
+[09/May/2019 05:05:09] "GET /static/js/check.js HTTP/1.1" 200 492
+[09/May/2019 05:05:11] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[09/May/2019 05:05:12] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[09/May/2019 05:05:13] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[09/May/2019 07:26:45] "GET / HTTP/1.1" 200 4843
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Not Found: /favicon.ico
+[09/May/2019 09:15:51] "GET /favicon.ico HTTP/1.1" 404 2829
+[09/May/2019 12:24:18] "GET / HTTP/1.1" 200 4843
+[09/May/2019 12:24:19] "GET /static/img/QMUL-logo.gif HTTP/1.1" 304 0
+[09/May/2019 12:24:19] "GET /static/css/style.css HTTP/1.1" 304 0
+[09/May/2019 12:24:20] "GET /static/img/background1.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[09/May/2019 12:24:21] "GET /favicon.ico HTTP/1.1" 404 2829
+[09/May/2019 12:24:22] "GET /consent-form/ HTTP/1.1" 200 4676
+[09/May/2019 12:24:26] "GET /user-study/ HTTP/1.1" 200 26946
+[09/May/2019 12:24:27] "GET /static/js/check.js HTTP/1.1" 304 0
+[09/May/2019 12:24:28] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:28] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:28] "GET /static/audio/mond_2_segment1.midi-pitch.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:28] "GET /static/audio/chp_op18_segment1.midi-pitch.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:28] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:28] "GET /static/audio/chp_op18_segment1.melody.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:29] "GET /static/audio/viennese1-4_segment1.midi-pitch.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:29] "GET /static/audio/tmte04-63j_segment1.midi-pitch.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:29] "GET /static/audio/viennese1-4_segment1.chroma-based.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:29] "GET /static/audio/tmte04-63j_segment1.melody.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:29] "GET /static/audio/tmte04-63j_segment1.chroma-based.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:29] "GET /static/audio/viennese1-4_segment1.melody.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:30] "GET /static/audio/clementi_opus36_5_3_segment1.melody.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:30] "GET /static/audio/clementi_opus36_5_3_segment1.midi-pitch.mp3 HTTP/1.1" 304 0
+[09/May/2019 12:24:30] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[09/May/2019 12:24:32] "GET /static/audio/clementi_opus36_5_3_segment1.chroma-based.mp3 HTTP/1.1" 200 787897
+[10/May/2019 00:07:17] code 400, message Bad request version ('MCTP/1.0')
+[10/May/2019 00:07:17] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+[10/May/2019 01:08:26] "GET / HTTP/1.1" 200 4843
+[10/May/2019 04:38:08] code 400, message Bad request version ('MCTP/1.0')
+[10/May/2019 04:38:08] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[10/May/2019 08:21:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[10/May/2019 08:21:10] "  *%à     Cookie: mstshash=Test" 400 -
+[10/May/2019 08:21:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[10/May/2019 08:21:10] "  *%à     Cookie: mstshash=Test" 400 -
+Not Found: /favicon.ico
+[10/May/2019 12:34:35] "GET /favicon.ico HTTP/1.1" 404 2829
+[10/May/2019 14:32:35] code 400, message Bad request version ('MCTP/1.0')
+[10/May/2019 14:32:35] "REMOTE HI_SRDK_DEV_GetHddInfo MCTP/1.0" 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[10/May/2019 15:51:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[10/May/2019 15:51:29] "  *%à     Cookie: mstshash=Test" 400 -
+[10/May/2019 15:51:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[10/May/2019 15:51:29] "  *%à     Cookie: mstshash=Test" 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[10/May/2019 23:03:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[10/May/2019 23:03:52] "  *%à     Cookie: mstshash=Test" 400 -
+[10/May/2019 23:03:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[10/May/2019 23:03:53] "  *%à     Cookie: mstshash=Test" 400 -
+[11/May/2019 02:03:46] "GET /user-study/ HTTP/1.1" 200 26946
+[11/May/2019 02:03:46] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 23739
+[11/May/2019 02:03:46] "GET /static/css/style.css HTTP/1.1" 200 2649
+[11/May/2019 02:03:47] "GET /static/js/check.js HTTP/1.1" 200 492
+[11/May/2019 02:03:47] "GET /static/js/ajax.js HTTP/1.1" 200 659
+[11/May/2019 02:03:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[11/May/2019 02:03:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27822
+[11/May/2019 02:03:47] "GET /static/img/background2.jpg HTTP/1.1" 200 32846
+[11/May/2019 02:03:47] "GET /static/js/jquery-1.11.2.js HTTP/1.1" 200 284184
+[11/May/2019 02:03:49] "GET /static/audio/chp_op18_segment1.melody.mp3 HTTP/1.1" 200 695946
+[11/May/2019 02:04:33] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 81920
+[11/May/2019 02:04:40] "GET /static/audio/chp_op18_segment1.midi-pitch.mp3 HTTP/1.1" 200 73728
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[11/May/2019 02:04:40] "GET /static/audio/chp_op18_segment1.midi-pitch.mp3 HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+[11/May/2019 02:04:40] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 200 81920
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[11/May/2019 02:04:40] "GET /static/audio/chp_op18_segment1.chroma-based.mp3 HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+[11/May/2019 02:04:40] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 200 180224
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[11/May/2019 02:04:40] "GET /static/audio/mond_2_segment1.melody.mp3 HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+[11/May/2019 02:04:40] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 200 73728
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[11/May/2019 02:04:40] "GET /static/audio/mond_2_segment1.chroma-based.mp3 HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+[11/May/2019 02:04:40] "GET /static/audio/mond_2_segment1.midi-pitch.mp3 HTTP/1.1" 200 253952
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[11/May/2019 02:04:40] "GET /static/audio/mond_2_segment1.midi-pitch.mp3 HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/Blog/env1/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[11/May/2019 09:47:26] "GET /user-study/ HTTP/1.1" 200 26946
+[11/May/2019 09:47:27] "GET /consent-form/ HTTP/1.1" 200 4676
+[11/May/2019 18:57:12] "GET / HTTP/1.1" 200 4843
+[11/May/2019 18:57:22] code 400, message Bad request syntax ("238\x00ll|'|'|SGFjS2VkX0Q3NUU2QUFB|'|'|WIN-QZN7FJ7D1O|'|'|Administrator|'|'|18-11-28|'|'||'|'|Win 7 Ultimate SP1 x64|'|'|No|'|'|S17|'|'|..|'|'|SW5ib3ggLSBPdXRsb29rIERhdGEgRmlsZSAtIE1pY3Jvc29mdCBPdXRsb29rAA==|'|'|")
+[11/May/2019 18:57:22] "238 ll|'|'|SGFjS2VkX0Q3NUU2QUFB|'|'|WIN-QZN7FJ7D1O|'|'|Administrator|'|'|18-11-28|'|'||'|'|Win 7 Ultimate SP1 x64|'|'|No|'|'|S17|'|'|..|'|'|SW5ib3ggLSBPdXRsb29rIERhdGEgRmlsZSAtIE1pY3Jvc29mdCBPdXRsb29rAA==|'|'|" 400 -
