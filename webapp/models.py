@@ -26,6 +26,9 @@ class UserStudyRating(models.Model):
     music_style = models.CharField(max_length=100, default='')
     name = models.CharField(max_length=100, default='')
 
+    email = models.CharField(max_length=100, default='')
+    note = models.CharField(max_length=10000, default='')
+
     def __str__(self):
         return str(self.serial_no)
 
