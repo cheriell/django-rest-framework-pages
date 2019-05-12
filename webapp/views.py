@@ -46,6 +46,7 @@ def user_study(request):
     return render(request, 'user_study.html', context)
 
 def thanks(request):
+    # create user_study_rating object
     rating1_1 = request.POST['rating1_1']
     rating1_2 = request.POST['rating1_2']
 
@@ -71,21 +72,30 @@ def thanks(request):
 
     user_study_rating = UserStudyRating(rating1_1=rating1_1, rating1_2=rating1_2, rating2_1=rating2_1, rating2_2=rating2_2, rating3_1=rating3_1, rating3_2=rating3_2, rating4_1=rating4_1, rating4_2=rating4_2, rating5_1=rating5_1, rating5_2=rating5_2, general_a=general_a, general_b=general_b, general_c=general_c, years_musical_training=years_musical_training, music_style=music_style, name=name)
 
+    # set serial number and save user_study_rating
     user_study_ratings = UserStudyRating.objects.all()
 
     last_rating = UserStudyRating()
+    new_rating = True
+    last_serial_no = 0
     for r in user_study_ratings:
-        last_rating = r
-
-    if (serialise(user_study_rating) != serialise(last_rating)) :
-        user_study_rating.serial_no = last_rating.serial_no + 1
+        last_serial_no = r.serial_no
+        if serialise(user_study_rating) == serialise(r):
+            new_rating = False
+            user_study_rating.serial_no = r.serial_no
+    if new_rating:
+        user_study_rating.serial_no = last_serial_no + 1
         user_study_rating.save()
-    else:
-        user_study_rating.serial_no = last_rating.serial_no
+
+    # prize
+    prize = False
+    if user_study_rating.serial_no % 5 == 0:
+        prize = True
     
     context = {
         'name': name,
         'serial_no': user_study_rating.serial_no,
+        'prize': prize,
     }
     return render(request, 'thanks.html', context)
 
