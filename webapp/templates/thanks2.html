@@ -6,33 +6,15 @@
 <br>
 Your participant serial number is: <strong>{{ serial_no }}</strong>
 
-{% if prize %}
-    <br><br>
-    <strong>Congratulations!</strong> You are offered an Amazon ￡5 gift card, please provide your email for us to contact you about the card details:
 
-    <form name="details" action="/thanks2/" onsubmit="return validateDetails()" method="POST">
-    {% csrf_token %}
-        <input type="hidden" name="serial_no" value="{{ serial_no }}">
-        <br><br>
-        Your email:
-        <br>
-        <textarea type="text" rows="1" class="mytextarea" style="width:70%" name="email" maxlength="100"></textarea>
-        <br>
-        Any note:
-        <br>
-        <textarea type="text" rows="3" class="mytextarea" name="note" maxlength="10000"></textarea>
-        <br>
-
-        <br><br>
-        <button type="submit" class="btn btn-default mybutton">
-            <strong>Submit</strong>
-        </button>
-    </form>
-{% else %}
-    <br><br>
-    If you have further questions, please feel free to contact.
-{% endif %}
-
+<br><br>
+Thanks for offering your contact details.
+<br><br>
+<strong>Your email:</strong> {{ email }}
+<br>
+<strong>Your note:</strong> {{ note }}
+<br><br>
+You will receive an email in a few days. If you have further questions, please feel free to contact me at lele.liu@se13.qmul.ac.uk with your name and participant serial number.
 
 <br><br><br><br><br><br><br><br><br><br><br>
 <h3><strong>For More Information</strong></h3>

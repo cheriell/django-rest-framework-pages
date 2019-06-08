@@ -3,9 +3,9 @@ Blog pages using [django and rest framework](https://www.django-rest-framework.o
 
 Remote server: 47.101.29.244
 
-Page published at [The Power of Music](http://46.101.29.244:9000)
+Page published at [User study on automatic music accompaniment](http://46.101.29.244:9000)
 
-Administration:
+website Administration (http://host/admin):
 
 > username: admin
 > password: N5i...
@@ -74,3 +74,14 @@ Once _models.py_ is changed, run the following instructions to apply change in d
 
     $ python manage.py makemigrations
     $ python manage.py migrate
+
+
+## user study design:
+
+audio segments:
+
+1. chroma-mode
+2. chroma-beat
+3. midi-pitch  
+4. chroma-based  
+5. chroma-pure

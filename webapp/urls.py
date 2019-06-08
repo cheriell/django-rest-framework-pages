@@ -12,6 +12,7 @@ urlpatterns = [
     url(r'^consent-form/', views.consent_form, name='consent-form'),  # consent form, consent_form.html
     url(r'^user-study/', views.user_study, name='user-study'),   # user study, user_study.html
     url(r'^thanks/', views.thanks, name='thanks'),   # thanks for participation, thanks.html
+    url(r'^thanks2/', views.thanks2, name='thanks2'),   # thanks for participation and providing contacting details, thanks2.html
 
     url(r'^viewapi/', include(router.urls)),
 ]

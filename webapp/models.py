@@ -5,18 +5,33 @@ class UserStudyRating(models.Model):
 
     rating1_1 = models.IntegerField(default=0)
     rating1_2 = models.IntegerField(default=0)
+    rating1_3 = models.IntegerField(default=0)
+    rating1_4 = models.IntegerField(default=0)
+    rating1_5 = models.IntegerField(default=0)
 
     rating2_1 = models.IntegerField(default=0)
     rating2_2 = models.IntegerField(default=0)
+    rating2_3 = models.IntegerField(default=0)
+    rating2_4 = models.IntegerField(default=0)
+    rating2_5 = models.IntegerField(default=0)
 
     rating3_1 = models.IntegerField(default=0)
     rating3_2 = models.IntegerField(default=0)
+    rating3_3 = models.IntegerField(default=0)
+    rating3_4 = models.IntegerField(default=0)
+    rating3_5 = models.IntegerField(default=0)
 
     rating4_1 = models.IntegerField(default=0)
     rating4_2 = models.IntegerField(default=0)
+    rating4_3 = models.IntegerField(default=0)
+    rating4_4 = models.IntegerField(default=0)
+    rating4_5 = models.IntegerField(default=0)
 
     rating5_1 = models.IntegerField(default=0)
     rating5_2 = models.IntegerField(default=0)
+    rating5_3 = models.IntegerField(default=0)
+    rating5_4 = models.IntegerField(default=0)
+    rating5_5 = models.IntegerField(default=0)
 
     general_a = models.CharField(max_length=10000, default='')
     general_b = models.CharField(max_length=10000, default='')

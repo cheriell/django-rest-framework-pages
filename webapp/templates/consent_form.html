@@ -1,60 +1,80 @@
 {% extends "base.html" %}
 {% block page %}
 
-<h1><strong><center>User Study - Consent Form</center></strong></h1>
+{% if status_on %}
+    <h1><strong><center>User Study - Consent Form</center></strong></h1>
 
-<br>
-<strong>Title of Study: User Study on Automatic Music Accompaniment</strong>
-<br>
-<strong>Queen Mary Ethics of Research Committee Ref: 1919</strong>
-
-<br><br>
-Thank you for considering taking part in our research. In the <a href="../"><strong>Information Sheet</strong></a> you can see an explanation on our project and user study. Please see it before you agree to take part. 
-<br><br>
-If you have any questions, please feel free to contact us at: lele.liu@se13.qmul.ac.uk
-
-<br><br>
-<strong>If you are willing to participate in this study, please read and agree to the following statements.</strong>
-
-<br><br>
-<p>
-    1. I agree that the research project named above has been explained to me to my satisfaction in verbal and/or written form.
-</p>
-<p>
-    2. I understand that if I decide at any other time during the research that I no longer wish to participate in this project, I can notify the researchers involved and be withdrawn from it immediately.
-</p>
-<p>
-    3. I have read both the notes written above and the Information Sheet about the project, and understand that the research study involves:
     <br>
-    - Listening to several pieces of music;
+    <strong>Title of Study: User Study on Automatic Music Accompaniment</strong>
     <br>
-    - Completing a questionnaire asking me about my evaluation about the given music pieces.
-</p>
-<p>
-    4. I understand that the study will include the use of my name and year of musical training.
-</p>
+    <strong>Queen Mary Ethics of Research Committee Ref: 1919</strong>
 
-<br>
-This information will be held and processed for the purpose of evaluating the performance of automatic music accompaniment system. I understand that any information I provide in confidential, and that no information that could lead to the identification of any individual will be collected during the project.
+    <br><br>
+    Thank you for considering taking part in our research. In the <a href="../"><strong>Information Sheet</strong></a> you can see an explanation on our project and user study. Please see it before you agree to take part. 
+    <br><br>
+    If you have any questions, please feel free to contact us at: lele.liu@se13.qmul.ac.uk
 
-<br><br>
-———————————————————————————————————
-<br>
-<strong>Investigator’s Statement: </strong>
-<br>
-I (Lele Liu) confirm that I have carefully explained the nature, demands and any foreseeable risks (where applicable) of the proposed research to the volunteer.
+    <br><br>
+    <strong>If you are willing to participate in this study, please read and agree to the following statements.</strong>
 
-<br><br>
-<strong>Participant's Agreement:</strong>
-<br>
-<input type="checkbox" id="agree">
-I have read the above statements and agree to take part in the study.
+    <br><br>
+    <p>
+        1. I agree that the research project named above has been explained to me to my satisfaction in verbal and/or written form.
+    </p>
+    <p>
+        2. I understand that if I decide at any other time during the research that I no longer wish to participate in this project, I can notify the researchers involved and be withdrawn from it immediately.
+    </p>
+    <p>
+        3. I have read both the notes written above and the Information Sheet about the project, and understand that the research study involves:
+        <br>
+        - Listening to several pieces of music;
+        <br>
+        - Completing a questionnaire asking me about my evaluation about the given music pieces.
+    </p>
+    <p>
+        4. I understand that the study will include the use of my name and year of musical training.
+    </p>
 
-<br><br>
-<button type="button" id="start" class="btn btn-default mybutton">
-    <i class="fa fa-arrow-right" aria-hidden="true"></i>
-    <strong>Start</strong>
-</button>
+    <br>
+    This information will be held and processed for the purpose of evaluating the performance of automatic music accompaniment system. I understand that any information I provide in confidential, and that no information that could lead to the identification of any individual will be collected during the project.
+
+    <br><br>
+    ———————————————————————————————————
+    <br>
+    <strong>Investigator’s Statement: </strong>
+    <br>
+    I (Lele Liu) confirm that I have carefully explained the nature, demands and any foreseeable risks (where applicable) of the proposed research to the volunteer.
+
+    <br><br>
+    <strong>Participant's Agreement:</strong>
+    <br>
+    <input type="checkbox" id="agree">
+    I have read the above statements and agree to take part in the study.
+
+    <br><br>
+    <button type="button" id="start" class="btn btn-default mybutton">
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        <strong>Start</strong>
+    </button>
+{% else %}
+    <h1><strong><center>User Study on Automatic Music Accompaniment</center></strong></h1>
+    <br><br>
+    <strong>Thanks for your interest, this study is finished.</strong>
+    
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <h3><strong>For More Information</strong></h3>
+    <br>
+    You can visit <a href="https://www.qmul.ac.uk/privacy/" target="_blank"><strong>Queen Mary's privacy notice</strong></a> for research participants for important information about your personal data and your rights in this respect.
+
+    <br><br>
+    If you have any questions or concerns about the manner in which the study was conducted please, in the first instance, please contact me at lele.liu@se13.qmul.ac.uk.
+    <br><br>
+    If this is unsuccessful, or not appropriate, please contact the Secretary at the Queen Mary Ethics of Research Committee, Room W104, Queens’ Building, Mile End Campus, Mile End Road, London, E1 4NS or research-ethics@qmul.ac.uk.
+    <br><br>
+    If you have any questions relating to data protection, please contact Data Protection Officer, Queens’ Building, Mile End Road, London, E1 4NS or data-protection@qmul.ac.uk
+    <br><br>
+    <img src="../static/img/QMUL-logo.gif" style="width:300px">
+{% endif %}
 
 
 <script src="../static/js/ajax.js"></script>
