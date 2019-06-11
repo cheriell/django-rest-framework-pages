@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block page %}
+
+<h1><strong><center>User Study Results</center></strong></h1>
+
+{% for suffix in suffixes %}
+
+<h3>{{ suffix.value }}</h3>
+
+{{ suffix.counts }}
+
+<br><br>
+
+{% endfor %}
+
+{% endblock %}

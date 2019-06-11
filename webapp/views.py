@@ -7,6 +7,8 @@ from django.http import HttpResponse, Http404
 from django.template import RequestContext, loader
 from .models import UserStudyRating, RatingValue
 
+import numpy as np
+
 max_user_number = 30
 
 def index(request):
@@ -166,6 +168,56 @@ def thanks2(request):
         'note': note,
     }
     return render(request, 'thanks2.html', context)
+
+
+def statistic(request):
+    user_study_ratings = UserStudyRating.objects.all()
+    counts_1 = np.zeros(11, dtype=int)
+    counts_2 = np.zeros(11, dtype=int)
+    counts_3 = np.zeros(11, dtype=int)
+    counts_4 = np.zeros(11, dtype=int)
+    counts_5 = np.zeros(11, dtype=int)
+    for user_study_rating in user_study_ratings:
+        counts_1[user_study_rating.rating1_1] += 1
+        counts_1[user_study_rating.rating2_1] += 1
+        counts_1[user_study_rating.rating3_1] += 1
+        counts_1[user_study_rating.rating4_1] += 1
+        counts_1[user_study_rating.rating5_1] += 1
+
+        counts_2[user_study_rating.rating1_2] += 1
+        counts_2[user_study_rating.rating2_2] += 1
+        counts_2[user_study_rating.rating3_2] += 1
+        counts_2[user_study_rating.rating4_2] += 1
+        counts_2[user_study_rating.rating5_2] += 1
+
+        counts_3[user_study_rating.rating1_3] += 1
+        counts_3[user_study_rating.rating2_3] += 1
+        counts_3[user_study_rating.rating3_3] += 1
+        counts_3[user_study_rating.rating4_3] += 1
+        counts_3[user_study_rating.rating5_3] += 1
+        
+        counts_4[user_study_rating.rating1_4] += 1
+        counts_4[user_study_rating.rating2_4] += 1
+        counts_4[user_study_rating.rating3_4] += 1
+        counts_4[user_study_rating.rating4_4] += 1
+        counts_4[user_study_rating.rating5_4] += 1
+        
+        counts_5[user_study_rating.rating1_5] += 1
+        counts_5[user_study_rating.rating2_5] += 1
+        counts_5[user_study_rating.rating3_5] += 1
+        counts_5[user_study_rating.rating4_5] += 1
+        counts_5[user_study_rating.rating5_5] += 1
+
+    context = {
+        'suffixes': [
+            {'no': '1', 'value': 'chroma-beat', 'counts': counts_1 },
+            {'no': '2', 'value': 'chroma-mode', 'counts': counts_2 },
+            {'no': '3', 'value': 'midi-pitch', 'counts': counts_3 },
+            {'no': '4', 'value': 'chroma-based', 'counts': counts_4 },
+            {'no': '5', 'value': 'chroma-pure', 'counts': counts_5 },
+        ],
+    }
+    return render(request, 'statistic.html', context)
 
 
 def serialise(r):
