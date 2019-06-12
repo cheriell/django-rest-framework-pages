@@ -39,6 +39,7 @@ Activate & deactivate virtualenv:
 > dj-database-url  
 > gunicorn  
 > whitenoise  
+> numpy
 
 ## publish/update site on ubuntu server
 
