@@ -126,3 +126,10 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10
 }
+
+EMAIL_HOST = 'smtp-mail.outlook.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'aimusicramble@outlook.com'
+EMAIL_HOST_PASSWORD = 'N5iEywJt1'
+EMAIL_SUBJECT_PREFIX = u'[django]'
+EMAIL_USE_TLS = True
