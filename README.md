@@ -12,13 +12,14 @@ website Administration (http://host/admin):
 
 ## System Requirements
 
-### using virtualenv
+### using virtualenv with python3
 
-    $ pip install virtialenv
+    $ pip install virtualenv
 
-Create a virtualenv:
+Create a virtualenv with python3:
 
-    $ virtualenv <name_of_env>
+    $ virtualenv <name_of_env>  # this creates a basic virtualenv
+    $ virtualenv -p python3 <name_of_env>  # this creates a virtualenv with python3
 
 This will create a folder according to your given name under the current folder, which is the location to save all your virtualenv files. You can then activate the virtialenv and install all the packages you need under it.
 
@@ -32,6 +33,7 @@ Activate & deactivate virtualenv:
 
 > djangorestframework  
 > django  
+> django-filter
 > pygments  
 > markdown  
 > coreapi  
@@ -39,7 +41,7 @@ Activate & deactivate virtualenv:
 > dj-database-url  
 > gunicorn  
 > whitenoise  
-> numpy
+> numpy  
 
 ## publish/update site on ubuntu server
 
