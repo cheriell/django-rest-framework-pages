@@ -45,6 +45,8 @@ Activate & deactivate virtualenv:
 
 ## publish/update site on ubuntu server
 
+Use _git clone_ to get the repository, add the server IP to ALLOWED_HOSTS in _settings.py_.
+
 ### manage progresses
 
 check all progresses
