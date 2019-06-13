@@ -5,10 +5,10 @@ function validateForm() {
     var name = document.forms['user-study']['name'].value;
 
     if(years_musical_training == '') {
-        fail += 'Please fill in your years of musical training\n';
+        fail += 'Please fill in your years of musical training\n请填写您接受音乐训练的年份\n';
     }
     if(name == '') {
-        fail += 'Please fill in your name\n';
+        fail += 'Please fill in your name\n请填写姓名\n';
     }
 
     if(fail == '') {
