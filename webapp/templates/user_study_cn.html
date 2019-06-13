@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% block page %}
+
+<script src="../static/js/check.js"></script>
+
+{% if status_on %}
+    <h1><strong><center>用户调查</center></strong></h1>
+
+    <form name="user-study" action="/thanks/" onsubmit="return validateForm()" method='POST'>
+    {% csrf_token %}
+        <br>
+        <h3><strong>1. 听音乐片段，给伴奏打分</strong></h3>
+
+        你将听到一系列的音乐片段，他们的伴奏是由不同的系统根据给定旋律自动生成的。以下自动生成的伴奏和给定的旋律能否搭配和谐？请根据你对音乐伴奏部分的感知，对伴奏部分的编曲打分。
+
+        {% for segment in segments %}
+        <br><br>
+        <strong>音乐片段 {{ segment.no }}</strong>
+        <br><br>
+        <p>以下是对旋律1的五个不同的伴奏，他们由不同的模型谱成。请在1-10的范围内，给以下片段的伴奏部分的编曲打分（1：很差，10：很好）。注：你可能会在部分片段中只能听到音乐的旋律部分，这意味着模型给出的伴奏在相应的节拍中皆为空拍。</p>
+            {% for suffix in suffixes %}
+            <div class="row">
+                <div class="col-sm-6">
+                    <center>
+                        <audio controls class="myaudio">
+                            <source src="../static/audio/{{ segment.name }}.{{ suffix.value }}.mp3" stype="audio/mpeg" />
+                            <source src="../static/audio/{{ segment.name }}.{{ suffix.value }}.ogg" stype="audio/ogg" />
+                        您的浏览器不支持此音频格式，请在<a href="../static/audio/{{ segment.name }}.{{ suffix.value }}.mp3" target="_blank">这里</a>查看源音频文件。
+                        </audio>
+                    </center>
+                </div>
+                <div class="col-sm-6">
+                    您的打分：
+                    <select class="myselect" style="padding-left:35px" name="rating{{ segment.no }}_{{ suffix.no }}">
+                        {% for rating_value in rating_values %}
+                            {% if rating_value.value == 0 %}
+                            <option value="{{ rating_value.value }}">--</option>
+                            {% else %}
+                            <option value="{{ rating_value.value }}">{{ rating_value.value }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            {% endfor %}
+        {% endfor %}
+
+        <br><br>
+        <h3><strong>2. 其他问题</strong></h3>
+
+        (a) 以下是我们的最终自动伴奏模型生成的一些音乐片段，他们在之前的“听音乐片段，给伴奏打分”中已经出现过。您可以重新听一遍以下片段。请问您对这些自动生成的音乐有什么评价吗？这些自动生成的音乐有没有什么重要的缺点？
+
+        <div class="row">
+        {% for segment in segments %}
+            <div class="col-sm-6">
+                {% if segment.left == 'true' %}
+                <center>
+                {% endif %}
+                    <audio controls class="myaudio">
+                        <source src="../static/audio/{{ segment.name }}.chroma-based.mp3" stype="audio/mpeg" />
+                        <source src="../static/audio/{{ segment.name }}.chroma-based.ogg" stype="audio/ogg" />
+                        您的浏览器不支持此音频格式，请在<a href="../static/audio/{{ segment.name }}.chroma-based.mp3" target="_blank">这里</a>查看源音频文件。
+                    </audio>
+                {% if segment.left == 'true' %}
+                </center>
+                {% endif %}
+            </div>
+        {% endfor %}
+        </div>
+        <textarea type="text" rows="3" class="mytextarea" name="general_a" maxlength="10000"></textarea>
+
+        <br><br>
+        (b) 您认为问卷中生成自动伴奏的系统是否能在音乐乐曲创作中给人们提供一定程度的初始参考？
+        <br>
+        <textarea type="text" rows="3" class="mytextarea" name="general_b" maxlength="10000"></textarea>
+
+        <br><br>
+        (c) 您对我们的问卷和研究有其他的评论吗？
+        <br>
+        <textarea type="text" rows="3" class="mytextarea" name="general_c" maxlength="10000"></textarea>
+
+        <br><br>
+        <h3><strong>3. 参与者信息</strong></h3>
+
+        * 您接受了多长时间的音乐训练？（年）:
+        <br>
+        <textarea type="text" rows="1" class="mytextarea" style="width:100px;margin:0 0 0 0;" name="years_musical_training" maxlength="10"></textarea>
+        <br>
+        * 您最熟悉的音乐风格是？
+        <br>
+        <select class="myselect" style="width:500px;padding:0 0.5em 0 0.5em" name="music_style">
+            {% for music_style in music_styles %}
+            <option value="{{ music_style.value }}">{{ music_style.value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        * 您的姓名：
+        <br>
+        <textarea type="text" rows="1" class="mytextarea" style="width:500px;margin:0 0 0 0" name="name" maxlength="100"></textarea>
+        <br>
+
+        <br><br>
+        <button type="submit" class="btn btn-default mybutton">
+            <strong>Submit</strong>
+        </button>
+    </form>
+{% else %}
+    <h1><strong><center>自动音乐伴奏用户调查</center></strong></h1>
+    <br><br>
+    <strong>谢谢您的兴趣，本用户调查已结束。</strong>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <h3><strong>For More Information</strong></h3>
+    <br>
+    You can visit <a href="https://www.qmul.ac.uk/privacy/" target="_blank"><strong>Queen Mary's privacy notice</strong></a> for research participants for important information about your personal data and your rights in this respect.
+
+    <br><br>
+    If you have any questions or concerns about the manner in which the study was conducted please, in the first instance, please contact me at lele.liu@se13.qmul.ac.uk.
+    <br><br>
+    If this is unsuccessful, or not appropriate, please contact the Secretary at the Queen Mary Ethics of Research Committee, Room W104, Queens’ Building, Mile End Campus, Mile End Road, London, E1 4NS or research-ethics@qmul.ac.uk.
+    <br><br>
+    If you have any questions relating to data protection, please contact Data Protection Officer, Queens’ Building, Mile End Road, London, E1 4NS or data-protection@qmul.ac.uk
+    <br><br>
+    <img src="../static/img/QMUL-logo.gif" style="width:300px">
+{% endif %}
+
+
+{% endblock %}
+

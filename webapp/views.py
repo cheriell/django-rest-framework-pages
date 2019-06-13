@@ -10,7 +10,7 @@ from django.core.mail import send_mail
 
 import numpy as np
 
-max_user_number = 30
+max_user_number = 40
 
 def index(request):
     user_study_ratings = UserStudyRating.objects.all()
@@ -82,6 +82,49 @@ def user_study(request):
         ],
     }
     return render(request, 'user_study.html', context)
+
+ 
+def user_study_cn(request):
+    user_study_ratings = UserStudyRating.objects.all()
+    status_on = True
+    count = 0
+    for user_study_rating in user_study_ratings:
+        count += 1
+    if count > max_user_number:
+        status_on = False
+    rating_values = RatingValue.objects.all()
+    context = {
+        'status_on': status_on,
+        'rating_values': rating_values,
+        'segments': [
+            {'no': '1', 'name': 'mond_2_segment1', 'left': 'true' },
+            {'no': '2', 'name': 'chp_op18_segment1', 'left': 'false'},
+            {'no': '3', 'name': 'viennese1-4_segment1', 'left': 'true' },
+            {'no': '4', 'name': 'tmte04-63j_segment1', 'left': 'false'},
+            {'no': '5', 'name': 'clementi_opus36_5_3_segment1', 'left': 'true' },
+        ],
+        'suffixes': [
+            {'no': '1', 'value': 'chroma-beat' },
+            {'no': '2', 'value': 'chroma-mode' },
+            {'no': '3', 'value': 'midi-pitch' },
+            {'no': '4', 'value': 'chroma-based' },
+            {'no': '5', 'value': 'chroma-pure' },
+        ],
+        'music_styles': [
+            {'value': '非洲音乐'},
+            {'value': '东方音乐'},
+            {'value': '布鲁斯'},
+            {'value': '民谣'},
+            {'value': '电子音乐'},
+            {'value': '爵士乐'},
+            {'value': '流行音乐'},
+            {'value': '摇滚'},
+            {'value': '西方古典乐'},
+            {'value': '其他'},
+        ],
+    }
+    return render(request, 'user_study_cn.html', context)
+
 
 def thanks(request):
     # create user_study_rating object
