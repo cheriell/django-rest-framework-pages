@@ -3,14 +3,19 @@
 
 <h1><strong><center>User Study Results</center></strong></h1>
 
+<br><br>
+number of participants: {{ num_participants }}
+
 {% for suffix in suffixes %}
-
-<h3>{{ suffix.value }}</h3>
-
-{{ suffix.counts }}
+    <br><br>
+    {{ suffix.value }}
+    <br>
+    {{ suffix.counts }}
+{% endfor %}
 
 <br><br>
-
-{% endfor %}
+years_musical_trainings:
+<br>
+{{ years_musical_trainings }}
 
 {% endblock %}

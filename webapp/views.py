@@ -246,6 +246,9 @@ def statistic(request):
     counts_3 = np.zeros(11, dtype=int)
     counts_4 = np.zeros(11, dtype=int)
     counts_5 = np.zeros(11, dtype=int)
+    years_musical_trainings = []
+    num_participants = 0
+
     for user_study_rating in user_study_ratings:
         counts_1[user_study_rating.rating1_1] += 1
         counts_1[user_study_rating.rating2_1] += 1
@@ -277,6 +280,9 @@ def statistic(request):
         counts_5[user_study_rating.rating4_5] += 1
         counts_5[user_study_rating.rating5_5] += 1
 
+        years_musical_trainings.append(user_study_rating.years_musical_training)
+        num_participants += 1
+
     context = {
         'suffixes': [
             {'no': '1', 'value': 'chroma-beat', 'counts': counts_1 },
@@ -285,6 +291,8 @@ def statistic(request):
             {'no': '4', 'value': 'chroma-based', 'counts': counts_4 },
             {'no': '5', 'value': 'chroma-pure', 'counts': counts_5 },
         ],
+        'years_musical_trainings': years_musical_trainings,
+        'num_participants': num_participants,
     }
     return render(request, 'statistic.html', context)
 
