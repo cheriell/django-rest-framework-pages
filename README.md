@@ -1,7 +1,7 @@
-# blog.django
+# Automatic Music Accompaniment User Study
 User study on automatic music accompaniment web pages using [django and rest framework](https://www.django-rest-framework.org)
 
-# Page published at [User study on automatic music accompaniment](http://178.62.8.184:9000)
+## Page published at [User study on automatic music accompaniment](http://178.62.8.184:9000)
 
 website Administration (http://host/admin):
 
