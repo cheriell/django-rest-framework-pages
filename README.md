@@ -1,19 +1,17 @@
 # blog.django
-Blog pages using [django and rest framework](https://www.django-rest-framework.org)
+User study on automatic music accompaniment web pages using [django and rest framework](https://www.django-rest-framework.org)
 
-Remote server: 47.101.29.244
-
-Page published at [User study on automatic music accompaniment](http://178.62.8.184:9000)
+# Page published at [User study on automatic music accompaniment](http://178.62.8.184:9000)
 
 website Administration (http://host/admin):
 
 > username: admin
-> password: N5i...
+> password: N...
 
 ## Outlook mail
 
 email: aimusicramble@outlook.com
-password: N5i...
+password: N...
 
 ## System Requirements
 
