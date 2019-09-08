@@ -4,7 +4,10 @@ User Study on Automatic Music Accompaniment web pages using [django and rest fra
 
 ### User Study published at [User study on automatic music accompaniment](http://178.62.8.184:9000)
 
+The user study has gone through ethics approval at Queen Mary University of London. Ethics approval number: QMREC1919.
+
 ## Example Music Pieces
 
-> Proposed data representation:
+> Proposed chroma-based data representation:
 
+> MIDI-pitch data representation:
