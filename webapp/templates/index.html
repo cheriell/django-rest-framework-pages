@@ -18,6 +18,16 @@
     <strong>Thanks for your interest, this study is finished.</strong>
 {% endif %}
 
+
+<button type="button" id="go-to-user-study" class="btn btn-default mybutton">
+    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+    <strong>Go to User Study</strong>
+</button>
+{% if not status_on %}
+    <br><br>
+    <strong>This study is now finished, you can view the content but cannot submit your answer.</strong>
+{% endif %}
+
 <br><br>
 <h3><strong>About</strong></h3>
 
