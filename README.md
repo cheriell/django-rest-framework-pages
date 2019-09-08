@@ -9,10 +9,8 @@ The user study has gone through ethics approval at Queen Mary University of Lond
 ## Example Music Pieces
 
 > Proposed chroma-based data representation:
-
-[segment_1](http://178.62.8.184:9000/static/chp_op18_segment1.chroma-based.mp3)
-
-[segment_2](http://178.62.8.184:9000/static/clementi_opus36_5_3_segment1.chroma-based.mp3)
+> [segment_1](http://178.62.8.184:9000/static/chp_op18_segment1.chroma-based.mp3)
+> [segment_2](http://178.62.8.184:9000/static/clementi_opus36_5_3_segment1.chroma-based.mp3)
 
 [segment_3](http://178.62.8.184:9000/static/mond_2_segment1.chroma-based.mp3)
 
