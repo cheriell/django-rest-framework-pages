@@ -10,7 +10,7 @@ from django.core.mail import send_mail
 
 import numpy as np
 
-max_user_number = 20
+max_user_number = 19
 
 def index(request):
     user_study_ratings = UserStudyRating.objects.all()
