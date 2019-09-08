@@ -3,7 +3,7 @@ User study on automatic music accompaniment web pages using [django and rest fra
 
 ## Page published at [User study on automatic music accompaniment](http://178.62.8.184:9000)
 
-instructions to run the web pages at [here]().
+Instructions to run the web pages at [here](https://github.com/cheriell/music-accompaniment-user-study/blob/master/README_instructions.md).
 
 website Administration (http://host/admin):
 
