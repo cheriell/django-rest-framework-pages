@@ -1,6 +1,6 @@
 # Automatic Music Accompaniment User Study
 
-Web pages using [django and rest framework](https://www.django-rest-framework.org). See instructions to run the web pages [here](https://github.com/cheriell/music-accompaniment-user-study/blob/master/README_instructions.md).
+Web pages using [django and rest framework](https://www.django-rest-framework.org).
 
 
 website Administration (http://host/admin):
