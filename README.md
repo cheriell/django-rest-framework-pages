@@ -67,7 +67,8 @@ kill specific progress
 
 run command in backstage and ignore hangup
 
-    $ nohup <command> &
+    $ nohup <command> &     # this will save server output to nohup.out
+    $ nohup <command> > filename.out 2>&1         # this will save server output to a self-defined filename
     $ nohup python manage.py runserver 0.0.0.0:<port_number> &  # blog - runserver
 
 
